@@ -7,6 +7,7 @@ body{
 }
 
 #title_table{
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     color: #ffffff;
@@ -15,10 +16,11 @@ body{
 
 .td_title{
     background-size: 999;
-    border: black;
     background-color: black;
     
 }
+
+
 
 p{
     color: #ffffff;
@@ -27,4 +29,13 @@ p{
 #td_table1{
     background-color: #7d0909;
 
+}
+
+.wrapper{
+    display: flex;
+}
+
+.table_right{
+
+width: ;
 }
