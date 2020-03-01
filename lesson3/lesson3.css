@@ -7,24 +7,74 @@ body{
 }
 
 #title_table{
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
     color: #ffffff;
     text-align: center;
+    border-spacing: 0ch;
 }
 
 .td_title{
     background-size: 999;
-    border: black;
     background-color: black;
+    padding-top: 30px;
     
+}
+
+.a_title{
+    color: white;
+    text-decoration: none;
 }
 
 p{
     color: #ffffff;
 }
 
-#td_table1{
-    background-color: #7d0909;
+.wrapper{
+    width: 100%;
+   display: flex;
+}
+.table_right{
+    width: 65%;
+    margin-left: 75px;
+    border-spacing: 0;  
+    }
 
+
+ .table_left{ 
+     width: 70%;
+     background-color: #7d0909;
+ }
+
+ .a_table_left{
+text-decoration-color:#e7570e ;
+ }
+ 
+
+hr{
+width: 80px;
+}
+
+.th_table_right{
+    background-color: gray;
+
+}
+.td_table_right{
+margin: 3px;
+text-decoration-color: black;
+background-color: #e3dddd;
+
+}
+.p_table_left{
+color:#e7570e;
+}
+
+.Copiryght{
+    background-color: #e7570e;
+    color: #ffffff;
+    text-align: center;
+}
+
+#Copityght{
+    background-color: #e7570e;
+    text-align: center;
 }
