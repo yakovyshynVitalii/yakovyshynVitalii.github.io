@@ -4,9 +4,11 @@ body{
     line-height: 1;
     font-family: Arial, Helvetica, "sans-serif";
     background-color: #f6f6f6;
+    box-sizing: border-box;
+    
 }
 
-.conainer{
+.container{
 width: 70%;
 max-width: 700px;
 margin:0 auto ;
@@ -25,9 +27,10 @@ width: 100%;
 }
 
 .lessons_list{
-    border: 1px solid darkgray;
+    border: 1px solid maroon;
     list-style-type: none;
     padding: 0;
+    background-color: lightgray;
 }
 
 .lessons_list.list_item{
@@ -42,4 +45,38 @@ width: 100%;
 
 .list_item a {
     font-size: 30px;
+    text-decoration: none;
+    color: maroon;
+    
+}
+.list_item a:hover{
+    color: magenta;
+} 
+
+.basic_info p{
+    display: inline-block;
+    width: 49%;
+    border: 1px solid maroon;
+    box-sizing: border-box;
+    text-transform: lowercase;
+    padding: 20px;
+    text-align: center;
+    color: maroon;
+    background: lightgray;
+}
+
+
+.basic_info p::first-letter{
+    text-transform: uppercase;
+}
+
+.basic_info p a{
+    color: maroon;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.basic_info p:hover a{
+    color: magenta;
 }
