@@ -69,21 +69,24 @@ h4{
     margin-left: 70px;
 }
 
-.Table.web1:hover{
+.web1:hover{
    background-color: transparent;
    background-image: url(img/Tablet.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #ffffff;
     border: solid 1px #1275b9;
     
 }
 
-.Table.web2:hover{
-    background-color: transparent;
-   background-image: url(img/Tablet.png);
-    background-position: center;
+.web2:hover{
+    border: 1px solid  #2a69a6;
+    background-image: url(img/Tablet.png);
     background-repeat: no-repeat;
-    border: solid 1px #1275b9;
+    background-position: center center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 200% ;
 
     
 }
@@ -145,7 +148,7 @@ color: blueviolet;
 
 .wwb{
     background-image: url(img2/Diamond.png);
-    
+        
 }
 
 h3{
