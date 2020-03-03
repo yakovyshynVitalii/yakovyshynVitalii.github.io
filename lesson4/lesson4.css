@@ -1,4 +1,7 @@
 *{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
     box-sizing: border-box;
 }
 
@@ -21,55 +24,66 @@ body{
     margin-left: 200px;
     margin-top: 50px;
     text-align: center;
+    padding-top: 50px;
 
 }    
+h4{
+    padding-top: 40px;
+}
 .Table>p{
     color:#a78d8d;
 }
 
+
 .web1{
-    border:1px solid #1275b9;
+    background-image: url(img/Tablet_white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 56px;
+    height: 56px;
     background-color: #1275b9;
-    border-radius: 40%;
-    padding: 15px;
+    border-radius:50%;
+    margin-left: 70px;
 }
 
 .web2{
-    border:1px solid #1275b9;
+    background-image: url(img/Settings_white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 56px;
+    height: 56px;
     background-color: #1275b9;
-    border-radius: 100%;
-    padding: 15px;
+    border-radius: 50%;
+    margin-left: 70px;
+    
 }
 
 .web3{
-  
-    border:1px solid #1275b9;
+    background-image: url(img/Dashboard_white.png);
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: #1275b9;
-    border-radius: 100%;
-    padding: 15px;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    margin-left: 70px;
 }
 
-.web1:hover{
-    border: 1px solid  #2a69a6;
-    background-color: #ffffff;
-    background-image: url(img/Tablet.png);
+.Table.web1:hover{
+   background-color: transparent;
+   background-image: url(img/Tablet.png);
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: center center;
-    padding: 15px;
-    border-radius: 40%;
-    padding: 15px;
-
-;
+    border: solid 1px #1275b9;
+    
 }
 
-.web2:hover{
-    border: 1px solid  #2a69a6;
-    background-image: url(img/Settings\ blue.png);
+.Table.web2:hover{
+    background-color: transparent;
+   background-image: url(img/Tablet.png);
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-color: #ffffff;
-    padding: 15px;
-    border-radius: 200% ;
+    border: solid 1px #1275b9;
 
     
 }
@@ -80,7 +94,7 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #ffffff;
-    padding: 15px;
+    padding: 20px;
     border-radius: 200% ;
 
     
@@ -88,7 +102,7 @@ body{
 
 /* Next lesson */
 
-.title>a{
+.title a{
     color: #9b878f;
     text-decoration: none;
     
@@ -98,6 +112,7 @@ body{
     margin-top: 100px;
     text-align: center;
     color:#a38989;
+    margin-bottom: 50px;
 }
 
 
@@ -106,33 +121,34 @@ h1{
 }
 
 
+.wrapper2{
+    text-align: center;  
+}
+.wrapper2 a{
+    text-decoration: none;
+}
+
 .table2{
     display: inline-block;
-    width: 180px;
-    
-    margin-left: 160px;
-    margin-top: 60px;
     text-align: center;
-    border: 0px;
-    padding: 25px;
+    width: 240px;
+    height: 430px;
+    background-color: mistyrose;
+    
 
 }
 
-h5{
-    color: #000000;
-     
+.table2 p{
+color: blueviolet;
+
 }
 
-.table2:hover{
-    border: 3px solid #27b4b6;
-    background-color: #27b4b6;
-    padding: 20px ;
-   
-}
-.table2>a{
-   
-     text-decoration: none;
-     color: #c2a8a8;
+.wwb{
+    background-image: url(img2/Diamond.png);
     
 }
 
+h3{
+    color: black;
+    text-decoration: none;
+}
