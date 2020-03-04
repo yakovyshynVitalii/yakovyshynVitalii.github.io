@@ -69,21 +69,24 @@ h4{
     margin-left: 70px;
 }
 
-.Table.web1:hover{
+.web1:hover{
    background-color: transparent;
    background-image: url(img/Tablet.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #ffffff;
     border: solid 1px #1275b9;
     
 }
 
-.Table.web2:hover{
-    background-color: transparent;
-   background-image: url(img/Tablet.png);
-    background-position: center;
+.web2:hover{
+    border: 1px solid  #2a69a6;
+    background-image: url(img/Settings\ blue.png);
     background-repeat: no-repeat;
-    border: solid 1px #1275b9;
+    background-position: center center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 200% ;
 
     
 }
@@ -102,7 +105,7 @@ h4{
 
 /* Next lesson */
 
-.title a{
+.title>a{
     color: #9b878f;
     text-decoration: none;
     
@@ -120,35 +123,230 @@ h1{
     color: #27b4b6;
 }
 
-
-.wrapper2{
-    text-align: center;  
+.container1{
+    width: 236px;
+    height: 420px;
+    border: solid 1px #f8dede;
+    margin-left: 290px;
+    float: left;
+    background-color: #f8dede;
 }
-.wrapper2 a{
+
+.container2{
+    width: 236px;
+    height: 420px;
+    border: solid 1px #f8dede;
+    float: left;
+    background-color: #f8dede;
+}
+
+.container3{
+    width: 236px;
+    height: 420px;
+    border: solid 1px #f8dede;
+    float: left;
+    background-color: #f8dede;
+}
+
+.container4{
+    width: 236px;
+    height: 420px;
+    border: solid 1px #f8dede;
+    float: left;
+    background-color: #f8dede;
+ }
+
+ .container1:hover{
+     background-color: #27b4b6;
+
+ }
+ .container2:hover{
+    background-color: #27b4b6;
+ }
+ .container3:hover{
+    background-color: #27b4b6;
+ }
+ .container4:hover{
+    background-color: #27b4b6;
+ }
+
+
+ .wwa{
+     background-image: url(img2/Anchor.png);
+     width: 66px;
+     height: 66px;
+     margin-top: 50px;
+     margin-left: 80px;
+     margin-bottom: 50px;
+     background-repeat: no-repeat;
+
+
+ }
+ .container1:hover .wwa{
+     background-image: url(img2/Anchor2.png);
+     background-repeat: no-repeat;
+    }
+
+
+ .wwb{
+    background-image: url(img2/Diamond.png);
+    width: 66px;
+    height: 66px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+ }
+ .container2:hover .wwb{
+    background-image: url(img2/Diamond2.png);
+    background-repeat: no-repeat;
+   }
+
+
+.wwc{
+    background-image: url(img2/Eyeglasses.png);
+    width: 66px;
+    height: 66px;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    background-repeat: no-repeat;
+ }
+
+ .container3:hover .wwc{
+    background-image: url(img2/Eyeglasses2.png);
+    background-repeat: no-repeat;
+   }
+
+.wwe{
+    background-image: url(img2/Monitor.png);
+    width: 66px;
+    height: 66px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+ }
+
+ .container4:hover .wwe{
+    background-image: url(img2/Monitor2.png);
+    background-repeat: no-repeat;
+   }
+
+
+   .p1{
+    width: 170px;
+    height: 100px;
+    font-family: PTSans;
+    font-size: 14px;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: center;
+    color: #777777;
+    margin-left: 30px;
+    margin-top: 33px;
+   }
+
+   .p2{
+    width: 170px;
+    height: 100px;
+    font-family: PTSans;
+    font-size: 14px;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: center;
+    color: #777777;
+    margin-left: 30px;
+    margin-top: 33px;
+   }
+
+   .p3{
+    width: 170px;
+    height: 100px;
+    font-family: PTSans;
+    font-size: 14px;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: center;
+    color: #777777;
+    margin-left: 30px;
+    margin-top: 33px;
+   }
+
+   .p4{
+    width: 170px;
+    height: 100px;
+    font-family: PTSans;
+    font-size: 14px;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: center;
+    color: #777777;
+    margin-left: 30px;
+    margin-top: 33px;
+   }
+
+.web_disign{
+    width: 100px;
+    height: 16px;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #321818;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.web_development{
+    width: 100px;
+    height: 16px;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #321818;
+    text-transform: uppercase;
+    margin-left: 75px;
+}
+
+.graphics{
+    width: 100px;
+    height: 16px;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #321818;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.illustration{
+    width: 100px;
+    height: 16px;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #321818;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.container1>a{
     text-decoration: none;
 }
-
-.table2{
-    display: inline-block;
-    text-align: center;
-    width: 240px;
-    height: 430px;
-    background-color: mistyrose;
-    
-
+.container2>a{
+    text-decoration: none;
 }
-
-.table2 p{
-color: blueviolet;
-
+.container3>a{
+    text-decoration: none;
 }
-
-.wwb{
-    background-image: url(img2/Diamond.png);
-    
-}
-
-h3{
-    color: black;
+.container4>a{
     text-decoration: none;
 }
