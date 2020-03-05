@@ -78,12 +78,41 @@ header>p{
     margin-left: 280px;
 }
 
+
+
 input[type="checkbox"]{
     width: 15px;
     height: 15px;
     float: left;
     margin: 21px;
+    
 }
+
+.checkbox1:checked ~.p1{
+    text-decoration: line-through;
+}
+.checkbox2:checked ~.p1{
+    text-decoration: line-through;
+}
+.checkbox3:checked ~.p1{
+    text-decoration: line-through;
+}
+.checkbox4:checked ~.p1{
+    text-decoration: line-through;
+}
+.checkbox5:checked ~.p1{
+    text-decoration: line-through;
+}
+.checkbox6:checked ~.p1{
+    text-decoration: line-through;
+}
+
+
+input:checked
+input:checked ~ .p1.p2 {
+text-decoration: line-through ;    
+}
+
 
 
 
@@ -97,10 +126,10 @@ input[type="checkbox"]{
 
 .p2{
     color: #c8b9c1;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     padding-top: 10px;
-    padding-left: 30px;
+    padding-left: 3px;
 }
 
 .conteiner1:hover{
