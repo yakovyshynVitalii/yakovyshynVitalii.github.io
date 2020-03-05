@@ -95,18 +95,3 @@ width: 100%;
     align-content: stretch;
 }
 
-.flex_item{
-    
-     
-    color: grey;
-    line-height: 48px;
-    background-color: hotpink;
-    border: 1px solid lightgrey;
-    text-align: center;
-    font-size: 20px;
-    flex: 1 0 50px ;
-}
-
-.flex_item:nth-child(8){
-    flex: 0 0 50%;
-}
