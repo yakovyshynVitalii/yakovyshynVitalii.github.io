@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+}
+
+.conteiner1{
+    width: 100%;
+    height:;
+    background-color: #e2e7ec;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    
+}
+
+
+
+#img{
+    width: 350px;
+    height: 251px;
+}
+.img2{
+    background-image: url(img/Layer\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img3{
+    background-image: url(img/Layer\ 5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img4{
+    background-image: url(img/Layer\ 7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img5{
+    background-image: url(img/Layer\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.box1{
+    width: 740px;
+    height: 540px;
+    background-image: url(img/Layer\ 8.png);
+    background-repeat: no-repeat;
+    margin: 15px;
+
+    
+    
+    
+}
+
+.box2{
+    width: 350px;
+    height: 540px;;
+    margin: 15px;
+    background-color: white;
+    
+    
+}
+.box3{
+    width: 350px;
+    height: 540px;
+    margin: 14px;
+    background-color: white;
+    
+}
+.box4{
+    width: 350px;
+    height: 540px;
+    margin: 15px;
+    background-color: white;
+
+}
+.box5{
+    width: 350px;
+    height: 540px;
+    margin: 15px;
+    background-color: white;
+}
+
+.date_img{
+    padding-top: 405px;
+    padding-left: 45px;
+    text-align: left;
+    font-size: 13px;
+    color: white;
+    opacity: 0.7;
+}
+.text_img{
+    padding-top: 10px;
+    padding-left: 44px;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+
+}
+
+.date{
+    padding-top: 25px;
+   padding-left: 25px;
+   font-size: 13px;
+   opacity: 0.7;
+}
+
+.text2{
+    
+    padding-top: 20px;
+    padding-left: 25px;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+#avatar{
+    width: 70px;
+    height: 70px;
+    margin-top: 90px;
+    margin-left: 25px;
+}
+
+.avatar1{
+    background-image: url(img/Layer\ 3.png);
+    background-repeat: no-repeat;
+}
+.avatar2{
+    background-image: url(img/Layer\ 3.png);
+    background-repeat: no-repeat;
+}
+.avatar3{
+    background-image: url(img/Layer\ 3.png);
+    background-repeat: no-repeat;
+}
+.avatar4{
+    background-image: url(img/Layer\ 3.png);
+    background-repeat: no-repeat;
+}
