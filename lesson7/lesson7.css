@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #464f54;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+.conteiner_title{
+    width: 875px;
+    height: 190px;
+    background-color: black;
+    margin-top: 50px;
+    
+}
+.conteiner_icons{
+    width: 812px;
+    height: 80px;
+    background-color: #f8bd2c;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.header_text{
+    padding-top: 45px;
+    padding-left: 60px;
+    text-align: left;
+    color: white;
+    opacity: 0.6;
+    font-size: 15px;
+    
+}
+.title{
+    padding-left: 60px;
+    text-align: left;
+    color: white;
+    font-size: 48px;
+}
+.header_hr{
+margin-top: 25px;
+margin-left: 60px;
+width: 816px;
+color: white;
+opacity: 0.6;
+}
+
+#icons{
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.icon1{
+    background-image: url(icons/icon1.png);
+    background-repeat: no-repeat;
+}
+.icon2{
+    background-image: url(icons/icon2.png);
+    background-repeat: no-repeat;
+}
+.icon3{
+    background-image: url(icons/icon3.png);
+    background-repeat: no-repeat;
+}
+.icon4{
+    background-image: url(icons/icon4.png);
+    background-repeat: no-repeat;
+}
+.icon5{
+    background-image: url(icons/icon5.png);
+    background-repeat: no-repeat;
+}
+.icon6{
+    background-image: url(icons/icon6.png);
+    background-repeat: no-repeat;
+}
+.icon7{
+    background-image: url(icons/icon7.png);
+    background-repeat: no-repeat;
+}
+.icon8{
+    background-image: url(icons/icon8.png);
+    background-repeat: no-repeat;
+}
+.icon9{
+    background-image: url(icons/icon9.png);
+    background-repeat: no-repeat;
+}
+.icon10{
+    background-image: url(icons/icon10.png);
+    background-repeat: no-repeat;
+}
+
+.icon1:hover{
+    opacity: 0.6;
+}
+.icon2:hover{
+    opacity: 0.6;
+}
+.icon3:hover{
+    opacity: 0.6;
+}
+.icon4:hover{
+    opacity: 0.6;
+}
+.icon5:hover{
+    opacity: 0.6;
+}
+.icon6:hover{
+    opacity: 0.6;
+}
+.icon7:hover{
+    opacity: 0.6;
+}
+.icon8:hover{
+    opacity: 0.6;
+}
+.icon9:hover{
+    opacity: 0.6;
+}
+.icon10:hover{
+    opacity: 0.6;
+}
