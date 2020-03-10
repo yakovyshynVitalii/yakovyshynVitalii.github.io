@@ -3,6 +3,7 @@
     padding: 0;
     line-height: 1;
     box-sizing: border-box;
+    font-family: ;
 }
 
 body{
@@ -20,6 +21,7 @@ header{
     height: 190px;
     background-color: black;
     margin-top: 50px;
+    z-index: 100;
     
 }
 .conteiner_icons{
@@ -28,7 +30,7 @@ header{
     background-color: #f8bd2c;
     display: flex;
     flex-direction: row;
-
+    z-index: 100;
     
 }
 
@@ -60,6 +62,13 @@ opacity: 0.6;
     margin-top: 25px;
     width: 50px;
     height: 50px;
+    
+    
+}
+.icons_hover{
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
     
 }
 
@@ -104,33 +113,61 @@ opacity: 0.6;
     background-repeat: no-repeat;
 }
 
-.icon1:hover{
+.icons_hover:hover :not(:hover){
+opacity: 0.6;
+}
+
+.conteiner_content{
+    position: relative;
+    top: -180px;
+    left: 70px;
+    width: 1060px;
+    height: 755px;
+    background-color: white;
+    z-index: 50;
+}
+
+.content_hr{
+    margin-left: 70px;
+    float: left;
+    display: inline-block;
+    width: 1px;
+    height: 755px;
+    color: white;
     opacity: 0.6;
 }
-.icon2:hover{
+.time{
+    text-align: left;
+    padding-top: 205px;
+    margin-left: 130px;
+    font-size: 20px;
     opacity: 0.6;
 }
-.icon3:hover{
+
+h1{
+    text-align:left;
+    margin-left:125px;
+    padding-top: 30px;
+    font-size: 78px;
+}
+
+.text1{
+    text-align: left;
+    margin-left: 130px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-style: italic;
     opacity: 0.6;
 }
-.icon4:hover{
-    opacity: 0.6;
+
+#content_text{
+    text-align: left;
+    margin-left: 130px;
+    font-size: 27px;
 }
-.icon5:hover{
-    opacity: 0.6;
+.text2{
+    padding-top: 70px;
 }
-.icon6:hover{
-    opacity: 0.6;
-}
-.icon7:hover{
-    opacity: 0.6;
-}
-.icon8:hover{
-    opacity: 0.6;
-}
-.icon9:hover{
-    opacity: 0.6;
-}
-.icon10:hover{
-    opacity: 0.6;
+.text3{
+    padding-top: 40px;
 }
