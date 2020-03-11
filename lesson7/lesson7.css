@@ -15,7 +15,7 @@ header{
     align-items: flex-end;
     
 }
-.conteiner_title{
+.container_title{
     width: 875px;
     height: 190px;
     background-color: black;
@@ -23,7 +23,7 @@ header{
     z-index: 100;
     
 }
-.conteiner_icons{
+.container_icons{
     width: 812px;
     height: 80px;
     background-color: #f8bd2c;
@@ -116,7 +116,7 @@ opacity: 0.6;
 opacity: 0.6;
 }
 
-.conteiner_content{
+.container_content{
     position: relative;
     top: -180px;
     left: 70px;
