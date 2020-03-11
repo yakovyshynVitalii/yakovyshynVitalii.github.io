@@ -117,13 +117,14 @@ opacity: 0.6;
 }
 
 .container_content{
-    position: relative;
+    /* position: relative;
     top: -180px;
-    left: 70px;
+    left: 70px; */
     width: 1060px;
     height: 755px;
     background-color: white;
-    z-index: 50;
+    /* z-index: 50; */
+    margin: -180px auto 0 auto;
 }
 
 .content_hr{
