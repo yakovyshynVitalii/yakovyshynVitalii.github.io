@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
 
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     line-height: 1;
     box-sizing: border-box;
@@ -32,16 +32,15 @@ h1{
 }
 
 .container{
-    width: 100%;
+    width: 1500px;
     display: flex;
     flex-direction: row;
-    justify-items: center;
-   margin-left: 0 auto;
-   margin-right: 0 auto;
-   padding-left: 165px;
+    justify-content: center;
    padding-top: 50px;
+   margin: 0 auto;
 }
 .box1{
+    margin: 20px;
     width: 370px;
     height: 310px;
     background-image: url(img/img1.png);
@@ -50,14 +49,15 @@ h1{
     
 }
 .box2{
-    margin-left: 30px;
+    margin: 20px;
     width: 370px;
     height: 310px;
     background-image: url(img/img2.png);
     background-repeat: no-repeat;
+    
 }
 .box3{
-    margin-left: 30px;
+    margin: 20px;
     width: 370px;
     height: 310px;
     background-image: url(img/img3.png);
@@ -119,6 +119,7 @@ footer{
     
     border:1px solid #f72b3b;
     background-color: #f72b3b;
+    box-shadow: 0px 2px 5px rgb(0,0,0,0.5);
     
 }
 
