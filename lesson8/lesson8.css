@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i&display=swap');
 *{
     margin: 0;
     padding: 0;
     line-height: 1;
     box-sizing: border-box;
+}
+body{
+    font-family: 'Libre Baskerville', serif;
 }
 header{
     width: 100%;
@@ -17,7 +21,7 @@ h2{
 }
 
 .container{
-    float: left;
+    
     width: 1160px;
     height: 530px;
     margin-right: 0 auto;
@@ -28,12 +32,15 @@ h2{
 }
 
 .text{
+    float: left;
+    padding-top: 50px;
     font-size: 18px;
     opacity: 0.6;
     line-height: 1.5;
 }
 
 .span1{
+    float: left;
     height: 80px;
     margin-top: -15px;
     font-size:110px;
@@ -42,14 +49,17 @@ h2{
 }
 
 .text2{
+    float: left;
     padding-top: 50px;
 }
 
 .text3{
+    float: left;
     padding-top: 50px;
 }
 
 .text4{
+    float: left;
     padding-top: 40px;
     opacity: 0.6;
     font-size: 24px;
