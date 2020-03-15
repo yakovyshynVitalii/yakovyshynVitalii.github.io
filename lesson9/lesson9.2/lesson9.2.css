@@ -1,0 +1,39 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_title{
+    padding-top: 110px;
+    text-align: center;
+    font-size: 34px;
+    color: black;
+}
+
+.header_hr{
+   margin-top: 20px;
+    width: 50px;
+    height: 1px;
+    opacity: 0.6;
+}
+
+.header_text{
+    width: 570px;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 16px;
+    color: black;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
