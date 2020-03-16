@@ -1,0 +1,56 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/Без\ имени-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form{
+    width: 336px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.form__header{
+    background-color: white;
+    padding: 20px 25px;
+}
+
+.headin-3{
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.heading__subtitle{
+    font-size: 10px;
+}
+
+.price{
+    font-size: 36px;
+}
+
+
+.form2{
+    padding: 30px;
+}
+
+.form2 input{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: white;
+    padding: 24px 24px;
+}
