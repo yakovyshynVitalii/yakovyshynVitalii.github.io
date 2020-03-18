@@ -77,9 +77,10 @@ body{
     flex-direction: row    
 }
 .rating_block input[type="radio"]{
-    display: ;
+    display:none ;
 }
 .label_rating{
+    
     z-index: 10;
     display: block;
     width: 25px;
@@ -121,6 +122,12 @@ body{
   }
 
   .color_shoes{
-    padding-top: 50px;
-    padding-right: 80px;
+    padding-top: 30px;
+    
+  }
+.color_shoes input[type="radio"]{
+    display: none;
+}
+  .black_shoes{
+      border: 1px black solid;
   }
