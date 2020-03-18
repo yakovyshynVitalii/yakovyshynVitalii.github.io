@@ -53,47 +53,39 @@ form{
     
 }
 
-#name{
+
+
+.input_text{
     border:2px solid lightgray; 
     width: 262px;
     height: 45px;
     background-color: rgba(0,0,0,0);
     opacity: 0.7;
     color: white;
-}
-
-#pass{
-    border:2px solid lightgray; 
-    width: 262px;
-    height: 45px;
-    background-color: rgba(0,0,0,0);
-    opacity: 0.7;
-    color: white;
-}
-
-.checkbox1{
-    display: flex;
-    flex-direction: row-reverse;
-    padding-right: 180px;
-    padding-top: 20px;
-    position: relative;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .input_checkbox{
   -webkit-appearance: none;
   appearance: none;
-   position: absolute;
+  position: relative;
+   
 }
 .label_checkbox{
  color: white;
-
+ position: relative;
+padding-left: 25px;
+padding-top: 20px;
 }
 
-.label_checkbox::before{
+
+.input_checkbox::before{
     position: absolute;
+    top: -13px;
+    left: -20px;
     display: block;
-    top: 19px;
-    left: 0;
     z-index: 1;
     content: "";
     display: block;
@@ -102,23 +94,23 @@ form{
     border: 1px solid #23ae92;
     background-color:#23ae92 ;
 }
-.label_checkbox::after{
-    position: absolute;
+.input_checkbox::after{
+   
     display: block;
-    top: 19px;
-    left: 0;
-    z-index: 1;
+    position: absolute;
+    top: -11px;
+    left: -20px;
     content: "";
     display: block;
     width: 14px;
     height: 14px;
-    opacity: 0;
+    opacity:0 ;
     background: url(img/check.png) no-repeat center center;
     background-size: 12px 12px;
     z-index: 2;
 }
 
-.input_checkbox:checked +.label_checkbox::before{ 
+.input_checkbox:checked::after{ 
    opacity: 1;
 }
 
