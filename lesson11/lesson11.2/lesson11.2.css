@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    background-image: url(img/img.png);
+    background-repeat: no-repeat;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+h1{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 90px;
+    color: black;
+    font-weight: bold;
+}
+
+.title_text{
+    padding-top: 35px;
+    text-align: center;
+    font-size: 17px;
+    color: black;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 165px;
+    padding-top: 50px;
+    padding-bottom: 110px;
+}
+
+.input_text{
+    margin-top: 15px;
+    padding-left: 20px;
+    width: 500px;
+    height: 50px;
+    border: 1px solid #00c4c4;
+    background-color:rgba(0, 196, 196, 0.4);
+    color: white;
+}
+
+#messge{
+    margin-top: 15px;
+    padding-left: 20px;
+    width: 500px;
+    height: 250px;
+    border: 1px solid #00c4c4;
+    background-color:rgba(0, 196, 196, 0.4);
+    color: white;
+}
+
+.input_text:hover{
+border-left: 3px solid #355b82; 
+}
+
+
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 175px;
+    padding-top: 45px;
+}
+
+h2{
+    margin-top: 20px;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+}
+
+.information{
+    font-size: 20px;
+    color: black;
+}
+
+footer{
+    height: 90px;
+    background-image: url(img/lesson11.2.css.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer_text{
+    padding-top:40px ;
+    font-size: 16px;
+    color: lightgray;
+}
+
+h3{
+    padding-top: 40px;
+    font-family: 'Pacifico', cursive;
+    font-size:25px ;
+    color: lightgray;
+}
+
+span{
+    color: #f52b55;
+}
