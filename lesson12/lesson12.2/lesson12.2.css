@@ -98,3 +98,49 @@ h1{
 .text_service1{
     padding-top: 65px;
 }
+
+
+
+.box4{
+    height: 1415px;
+}
+
+
+.box4_title{
+    padding-top: 110px;
+    text-align: center;
+    font-size: 34px;
+    color: black;
+}
+
+.icon{
+    width: 85px;
+    height: 85px;
+    padding-left: 47.5%;
+    
+}
+
+.icon_design{
+    margin-top: 113px;
+}
+.icon_develop{
+    margin-top: 120px;
+}
+.icon_management{
+    margin-top: 100px;
+}
+
+.box4_mini_title{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+    color: black;
+}
+
+.box4_text{
+    text-align: center;
+    padding-top: 38px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: black;
+}
