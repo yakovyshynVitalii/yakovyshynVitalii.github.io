@@ -144,3 +144,100 @@ h1{
     line-height: 1.8;
     color: black;
 }
+
+
+.box5{
+    height: 242px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.box6{
+    height: 242px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.section{
+    width: 548px;
+    height: 238px;
+}
+
+.topworkz{
+    background-image: url(img/Layer\ 1.png);
+    background-repeat: no-repeat;
+}
+.joint{
+    background-image: url(img/Layer\ 2.png);
+    background-repeat: no-repeat;
+}
+.market{
+    background-image: url(img/Layer\ 3.png);
+    background-repeat: no-repeat;
+}
+.worktop{
+    margin-top: 5px;
+    background-image: url(img/Layer\ 4.png);
+    background-repeat: no-repeat;
+}
+.lab{
+    margin-top: 5px;
+    background-image: url(img/Layer\ 5.png);
+    background-repeat: no-repeat;
+}
+.kyiv{
+    margin-top: 5px;
+    background-image: url(img/Layer\ 6.png);
+    background-repeat: no-repeat;
+}
+.box5_box6:hover :not(:hover){
+    opacity: 0.7;
+
+}
+
+.box5_text{
+    font-size: 34px;
+    float: left;
+    padding-top: 172px;
+    padding-left: 55px;
+    color: white;
+}
+
+
+.box7{
+    height:597px;
+}
+
+
+.box7_title{
+    margin-top: 132px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.box7_text{
+    margin-top: 59px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+#box7_button{
+    margin-top: 45px;
+    margin-left: 40%;
+    width: 400px;
+    height: 60px;
+    background-color: #3c3c3c;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+
+}
+.box7_text2{
+    margin-top: 130px;
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 14px;
+}
