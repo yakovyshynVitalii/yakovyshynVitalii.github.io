@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Raleway:400,400i,700&display=swap");
+#section1 {
+  font-family: "Raleway", sans-serif;
+}
+#section1 .container1 {
+  margin: 0 auto;
+  max-width: 1800px;
+  width: 100%;
+}
+#section1 .container1_box1 {
+  height: 1000px;
+  background-image: url(../../section1/img/header.png);
+}
+#section1 .header_logo {
+  font-family: "Pacifico", cursive;
+  font-style: italic;
+  float: left;
+  width: 150px;
+  margin-left: 150px;
+  padding-top: 50px;
+  font-size: 50px;
+}
+#section1 .container1_box1_menu {
+  width: 570px;
+  margin-left: 765px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+#section1 .menu {
+  margin-left: 40px;
+}
+#section1 .container1_box1_menu a {
+  color: black;
+  text-decoration: none;
+}
+#section1 .container1_box1_menu a:hover {
+  border-top: 2px solid #ff6033;
+}
+#section1 .header_title {
+  float: left;
+  margin-top: 300px;
+  margin-left: -150px;
+  font-size: 60px;
+}
+#section1 .header_text {
+  float: left;
+  width: 340px;
+  margin-top: 370px;
+  margin-left: -272px;
+  text-align: left;
+  font-size: 17px;
+  color: black;
+}
+#section1 .header_button {
+  width: 180px;
+  height: 50px;
+  border: 1px solid #ff6033;
+  background-color: #ff6033;
+  margin-top: 470px;
+  margin-left: 155px;
+  padding-top: 15px;
+  box-shadow: -1px 2px 4px 1px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: -1px 2px 4px 1px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: -1px 2px 4px 1px rgba(0, 0, 0, 0.36);
+}
+#section1 .header_button a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+#section1 .container2 {
+  margin: 0 auto;
+  max-width: 1800px;
+}
+#section1 .container2_box1 {
+  background-color: #00b2b2;
+  display: flex;
+  flex-direction: row;
+}
+#section1 .img {
+  width: 630px;
+  height: 650px;
+  margin-top: 71px;
+  margin-left: 165px;
+  background-image: url(../../section1/img/img.png);
+  background-repeat: no-repeat;
+}
+#section1 .container2_box1_information {
+  width: 500px;
+  margin-left: 40px;
+  margin-top: 180px;
+  color: white;
+}
+#section1 .container2_box1_title {
+  font-size: 90px;
+  text-align: left;
+}
+#section1 .container2_box1_text {
+  padding-top: 10px;
+  font-size: 17px;
+  text-align: left;
+  line-height: 1.5;
+}
