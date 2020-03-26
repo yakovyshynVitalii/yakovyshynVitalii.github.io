@@ -258,66 +258,19 @@ h1{
     font-size: 14px;
 }
 
-
-@media screen and (min-width:992px) and (max-width: 1200px) {
-    .container{
-        margin:0 auto;
-        width: 1900px;
-    }
-    .box1{
-        width:  1200px;
-    }
-    .box5{
-        width:  1200px;
-        
-    
-    }
-    .box6{
-        width:  1200px;
-        
-        
-    }
-}
-
-
-
-
-
-
-@media screen and (max-width:576px) , (min-width:319px) {
-    .container{
-        
-        width: 576px;
-        
-    }
-    .box1{
-        width: 576px;
-    }
-    .box2{
-        width: 576px;
-    }
-    .box3{
-        width: 576px;
-    }
-    .box4{
-        width: 576px;
-    }
-    
-    .box5{
-        width: 576px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-       
-    
-    }
-    .box6{
-        
-        width: 576px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+@media screen and (max-width: 321px){
+ .container{
+     width: 320px;
+     margin: 0 auto;
+ }
+ .box1{
+    width: 320px;
+ }
+ .box2{
+     margin-left: 0%;
+ }
+ .box3{
+     width: 320px;
+     margin: 0 auto;
+ }
 }
