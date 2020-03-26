@@ -258,7 +258,8 @@ h1{
     font-size: 14px;
 }
 
-@media screen and (max-width:1200px) , (min-width:992px) {
+
+@media screen and (min-width:992px) and (max-width: 1200px) {
     .container{
         margin:0 auto;
         width: 1900px;
@@ -277,77 +278,9 @@ h1{
         
     }
 }
-@media screen and (max-width:991px) , (min-width:769px) {
-    .container{
-        width: 991px;
-    }
-    .box1{
-        width: 100%;
-    }
-    .box2{
-        width: 960px;
-    }
-    .box3{
-        width: 991px;
-    }
-    .box4{
-        width: 960px;
-    }
-    .box5{
-        width:930px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-       
-    
-    }
-    .box6{
-        
-        width: 930px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
 
-@media screen and(max-width:768px) , (min-width:577px) {
-    .container{
-        
-        width: 768px;
-        
-    }
-    .box1{
-        width: 700px;
-    }
-    .box2{
-        width: 700px;
-    }
-    .box3{
-        width: 700px;
-    }
-    .box4{
-        width: 700px;
-    }
-    .box5{
-        width:700px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-       
-    
-    }
-    .box6{
-        
-        width: 700px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
+
+
 
 
 
