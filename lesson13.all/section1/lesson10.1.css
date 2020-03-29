@@ -6,10 +6,11 @@
   margin: 0 auto;
   max-width: 1800px;
   width: 100%;
+  border: 2px solid red;
 }
 #section1 .container1_box1 {
   height: 1000px;
-  background-image: url(../../section1/img/header.png);
+  background-image: url(../section1/img/header.png);
 }
 #section1 .header_logo {
   font-family: "Pacifico", cursive;
@@ -85,7 +86,7 @@
   height: 650px;
   margin-top: 71px;
   margin-left: 165px;
-  background-image: url(../../section1/img/img.png);
+  background-image: url(../section1/img/img.png);
   background-repeat: no-repeat;
 }
 #section1 .container2_box1_information {
