@@ -91,6 +91,22 @@ input[type="checkbox"]{
 .checkbox1:checked ~.p1{
     text-decoration: line-through;
 }
+.checkbox2:checked ~.p1{
+    text-decoration: line-through;
+}
+.checkbox3:checked ~.p1{
+    text-decoration: line-through;
+}
+.checkbox4:checked ~.p1{
+    text-decoration: line-through;
+}
+.checkbox5:checked ~.p1{
+    text-decoration: line-through;
+}
+.checkbox6:checked ~.p1{
+    text-decoration: line-through;
+}
+
 
 input:checked
 input:checked ~ .p1.p2 {

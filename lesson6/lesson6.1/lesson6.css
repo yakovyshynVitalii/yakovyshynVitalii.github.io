@@ -61,12 +61,11 @@
 
 
 .box1{
-    
     margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
-    width: 365px;
-    height: 435px;
+    width: 400px;
+    height: 500px;
     background-color: white;
     border: 2px soli white;
     border-radius: 2%;
@@ -76,8 +75,8 @@
         margin-top: 150px;
         margin-left: auto;
         margin-right: auto;
-        width: 365px;
-        height: 435px;
+        width: 400px;
+        height: 500px;
         background-color: white;
         border: 2px solid white;
         border-radius: 2%;
@@ -87,8 +86,8 @@
         margin-top: 150px;
         margin-left: auto;
         margin-right: auto;
-        width: 365px;
-        height: 435px;
+        width: 400px;
+        height: 500px;
         background-color: white;
         border: 2px solid white;
         border-radius: 2%;

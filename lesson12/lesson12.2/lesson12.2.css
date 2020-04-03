@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+max-width: 1920px;
+margin: 0 auto;
+}
+
+
+
+.box1{
+    height: 1071px;
+    
+    background-image: url(img/hero-bg.jpg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1_logo{
+    margin-top: 280px;
+    margin-left: 48%;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    padding-top: 93px;
+    font-size: 54px;
+    color: white;
+}
+.box1_text{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 1.8;
+    padding-top: 50px;
+
+}
+
+
+
+.box2{
+    margin: 0 auto;
+    height: 635px;
+    width: 903px;
+    position: relative;
+    
+}
+
+.title_aboutus{
+    padding-top: 140px;
+    text-align:  center;
+    font-size: 34px;
+    font-weight: bold;
+    color: black;
+}
+.text_aboutus{
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    line-height: 1.8;
+}
+.text_aboutus1{
+    padding-top: 65px;
+} 
+.text_aboutus2{
+    padding-top: 30px;
+}
+
+
+.box3{
+    height: 490px;
+    background-image: url(img/services.jpg.png);
+    background-repeat: no-repeat;
+}
+.title_service{
+    padding-top: 120px;
+    text-align: center;
+    font-size: 34px;
+    color: white;
+}
+.text_service{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    line-height: 1.8;
+}
+.text_service1{
+    padding-top: 65px;
+}
+
+
+
+.box4{
+    height: 1415px;
+}
+.icon_section{
+    width: 903px;
+    margin:0 auto;
+}
+
+.box4_title{
+    padding-top: 110px;
+    text-align: center;
+    font-size: 34px;
+    color: black;
+}
+
+.icon{
+    width: 85px;
+    height: 85px;
+    margin:0 auto;
+    
+}
+
+.icon_design{
+    margin-top: 113px;
+}
+.icon_develop{
+    margin-top: 120px;
+}
+.icon_management{
+    margin-top: 100px;
+}
+
+.box4_mini_title{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+    color: black;
+}
+
+.box4_text{
+    text-align: center;
+    padding-top: 38px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: black;
+}
+
+
+.box5{
+    margin:0 auto;
+    width: 903px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.box6{
+    margin: 0 auto;
+    width: 903px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.section{
+    width: 548px;
+    height: 238px;
+}
+
+.topworkz{
+    background-image: url(img/Layer\ 1.png);
+    background-repeat: no-repeat;
+}
+.joint{
+    background-image: url(img/Layer\ 2.png);
+    background-repeat: no-repeat;
+}
+.market{
+    background-image: url(img/Layer\ 3.png);
+    background-repeat: no-repeat;
+}
+.worktop{
+    margin-top: 5px;
+    background-image: url(img/Layer\ 4.png);
+    background-repeat: no-repeat;
+}
+.lab{
+    margin-top: 5px;
+    background-image: url(img/Layer\ 5.png);
+    background-repeat: no-repeat;
+}
+.kyiv{
+    margin-top: 5px;
+    background-image: url(img/Layer\ 6.png);
+    background-repeat: no-repeat;
+}
+.box5_box6:hover :not(:hover){
+    opacity: 0.7;
+
+}
+
+.box5_text{
+    font-size: 34px;
+    float: left;
+    padding-top: 172px;
+    padding-left: 55px;
+    color: white;
+}
+
+
+.box7{
+    height:597px;
+}
+
+.box7_section{
+    margin:0 auto;
+    width: 903px;
+}
+
+
+
+.box7_title{
+    margin-top: 133px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.box7_text{
+    margin-top: 59px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+#box7_button{
+    margin-top: 45px;
+    margin-left: 252px;
+    width: 400px;
+    height: 60px;
+    background-color: #3c3c3c;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+
+}
+.box7_text2{
+    margin-top: 130px;
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 321px){
+ .container{
+     width: 320px;
+     margin: 0 auto;
+ }
+ .box1{
+    width: 320px;
+ }
+ .box2{
+     margin-left: 0%;
+ }
+ .box3{
+     width: 320px;
+     margin: 0 auto;
+ }
+}

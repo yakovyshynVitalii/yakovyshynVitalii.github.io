@@ -7,15 +7,13 @@
 }
 
 .conteiner1{
-    width: 100%;
+    margin: 0 auto ;
+    width: 1519px;
     height:;
     background-color: #e2e7ec;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-    
-    
 }
 
 
@@ -52,10 +50,6 @@
     background-image: url(img/Layer\ 8.png);
     background-repeat: no-repeat;
     margin: 15px;
-
-    
-    
-    
 }
 
 .box2{

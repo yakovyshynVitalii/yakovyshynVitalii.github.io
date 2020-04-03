@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1800px;
+    
+}
+
+.container_box{
+    position: relative;
+    margin: 0 auto;
+   margin-top: 109px;
+    width: 686px;
+    height: 391px;
+    background-color: #111a28;
+    border: 1px solid #111a28 ;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 70px;
+    height: 40px;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+}
+
+.Nike{
+    margin-top: 135px;
+    margin-left: -35px;
+    width: 332px;
+    height: 177px;
+    background-image: url(img/Nike-SB-Stefan-Janoski-Max.png);
+    background-repeat: no-repeat;
+}
+
+.box_information{
+    margin-top: 80px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    color: #e1e1e1;
+    text-align: left;
+    font-size: 24px;
+}
+
+.text_information{
+    padding-top: 15px;
+    color:#e1e1e1;
+    text-align: left;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.rating_block{
+    padding-top: 25px;
+    width: 125px;
+    height: 25px;
+    display: flex;
+    flex-direction: row    
+}
+.rating_block input[type="radio"]{
+    display:none ;
+}
+.label_rating{
+    
+    z-index: 10;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url(img/stars.png) no-repeat 50% 0;
+    cursor: pointer;
+}
+.rating_block .label_rating:hover,
+.rating_block .label_rating:hover ~ .label_rating,
+.rating_block input[type="radio"]:checked ~ .label_rating{
+    background-position: 50% -25px;
+  }
+
+  .box_size{
+      padding-top: 30px;
+      display: flex;
+      flex-direction: row;
+  }
+
+  select{
+      border: 1px solid white;
+      width: 70px;
+      height: 30px;
+      margin: 2px;
+      padding: 5px;
+      background-color: #111a28;
+      color:white;
+      opacity: 0.6;
+  }
+
+  .button_payment{
+      margin-top: 30px;
+      width: 185px;
+      height: 43px;
+      border: 1 solid white;
+      color: white;
+      background-color: #111a28;
+      opacity: 0.6;
+  }
+
+  .color_shoes{
+    padding-top: 30px;
+    
+  }
+.color_shoes input[type="radio"]{
+    display: none;
+}
+  .black_shoes{
+      border: 1px black solid;
+  }
