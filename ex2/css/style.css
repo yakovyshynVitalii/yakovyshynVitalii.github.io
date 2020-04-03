@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: 'bebas_neuebold';
+  src: url('bebasneue_bold-webfont.eot');
+  src: url('bebasneue_bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('bebasneue_bold-webfont.woff2') format('woff2'),
+       url('bebasneue_bold-webfont.woff') format('woff'),
+       url('bebasneue_bold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'bebas_neuelight';
+  src: url('bebasneue_light-webfont.eot');
+  src: url('bebasneue_light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('bebasneue_light-webfont.woff2') format('woff2'),
+       url('bebasneue_light-webfont.woff') format('woff'),
+       url('bebasneue_light-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'bebas_neue_regularregular';
+  src: url('bebasneue_regular-webfont.eot');
+  src: url('bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('bebasneue_regular-webfont.woff2') format('woff2'),
+       url('bebasneue_regular-webfont.woff') format('woff'),
+       url('bebasneue_regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'bebas_neuethin';
+  src: url('bebasneue_thin-webfont.eot');
+  src: url('bebasneue_thin-webfont.eot?#iefix') format('embedded-opentype'),
+       url('bebasneue_thin-webfont.woff2') format('woff2'),
+       url('bebasneue_thin-webfont.woff') format('woff'),
+       url('bebasneue_thin-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+body{
+background-color: #9789f9;
+}
+
+/* Layout */
+.ba-container{
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px;
+}
+.ba-pricing__col{
+  padding: 12.5px;
+}
+.ba-pricing{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 70px;
+ 
+}
+.ba-price{
+  background-color: #f5f4f9;
+}
+.ba-price__rate{
+  padding:50px 140px 0px ;
+  text-align: center;
+  font-family: 'bebas_neuethin';
+  font-size: 60px;
+}
+sup{
+  top: -20px;
+  font-size: 24px;
+}
+sub{
+  font-size: 24px;
+}
+.ba-price__position{
+  font-family: 'bebas_neue_regularregular';
+  text-align: center;
+  padding-top:10px ;
+  font-size: 24px;
+  padding-bottom: 50px;
+}
+.ba-price__body{
+  background-color: white;
+  border-radius: 170px 170px 0px 0px;
+-moz-border-radius: 170px 170px 0px 0px;
+-webkit-border-radius: 170px 170px 0px 0px;
+border: 0px solid #000000;
+}
+.icons{
+padding-left: 160px;
+padding-top: 30px;
+font-size: 30px;
+}
+ul{
+ padding-top: 20px;
+ padding-bottom: 50px;
+  
+}
+li{
+  text-align: left;
+  font-family: 'bebas_neue_regularregular';
+  list-style-type: none;
+  font-size:16px;
+  padding-left: 120px; 
+  padding-top: 20px;
+}
+.ba-button{
+  position: relative;
+  top: 40px;
+  border:  0px solid #6fcffb;
+  border-radius: 97px 97px 100px 101px;
+-moz-border-radius: 97px 97px 100px 101px;
+-webkit-border-radius: 97px 97px 100px 101px;
+  text-align: center;
+  padding-top: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #6fcffb;
+  width: 200px;
+  height: 50px;
+  margin-left: 87px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ba-pricing__col:hover{
+  transform: scale(1.1);
+}
+.ba-pricing__col:hover .ba-button{
+  transition:1.5s;
+  top: -40px;
+  background-color: #fd8d7b;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+  display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
