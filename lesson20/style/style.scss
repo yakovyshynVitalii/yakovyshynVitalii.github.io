@@ -423,6 +423,7 @@ body{
             .section3_container1_box_block{
                 float: left;
                 padding-left: 30px;
+                padding-right: 30px;
                 background-color: rgb(20%, 20%, 20%, 0.9);
                 font-family: 'Josefin Sans', sans-serif;
                 color: white;
@@ -443,6 +444,7 @@ body{
                     text-align: left;
                 }
                 .container1_box_block_text2{
+                    max-width: 470px;
                     padding-top: 25px;
                     font-size: 16px;
                     text-align: left;
@@ -504,8 +506,9 @@ body{
                    
                 }
                 .container2_box_block_text2{
+                    max-width: 470px;
                     padding-top: 25px;
-                    padding-right: 40px;
+                    padding-right: 20px;
                     font-size: 16px;
                     @media (max-width:530px){
                         padding-left: 5px;
@@ -575,6 +578,13 @@ body{
                    background-image: url(../img/Rectangle41441.png);
                    width: 445px;
                    height: 284px;
+                   @media (max-width:996px){
+                    background-image: url(../img/Rectangle41441_320px.png);
+                    width: 308px;
+                    height: 200px;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
                 }
                 .block_text{
                     max-width: 500px;
@@ -585,8 +595,10 @@ body{
                     padding-top: 50px;
                     color: white;
                     @media (max-width:996px){
+                        text-align: center;
                         padding-top: 10px;
                         padding-bottom: 10px;
+                        padding-right: 50px;
                     }
 
                     .block_title{
