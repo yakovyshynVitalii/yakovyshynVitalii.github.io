@@ -810,6 +810,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 #section1 .section1_container .section1_container_box .search {
+  height: 60px;
   width: 650px;
   margin-top: 50px;
   border: 2px solid white;
@@ -842,6 +843,7 @@ body {
   }
 }
 #section1 .section1_container .section1_container_box #box_input {
+  height: 60px;
   border: none;
   width: 76%;
   height: 60px;
@@ -850,6 +852,7 @@ body {
   text-align: center;
 }
 #section1 .section1_container .section1_container_box #box_button {
+  height: 60px;
   display: flex;
   flex-direction: row;
   justify-content: center;
