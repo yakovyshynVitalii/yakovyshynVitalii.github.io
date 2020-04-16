@@ -81,6 +81,7 @@ if (firstNumer[0]==firstNumer[4] && firstNumer[1]==firstNumer[3]){
     alert (`Число не є паліндромом`)
 }
 
+// Завдання 6
 
 const eur = 0.90
 const uan = 27.50
@@ -100,6 +101,7 @@ switch (money){
 }
 
 // Завдання 7
+
 let purchase = prompt(`Введіть суму покупки`,0);
 if ( purchase  >=200 && purchase <=300 ){
     alert (`Ви отримали знижку 3% тому оплата буде ${Math.floor(purchase / 1.03) }`);
