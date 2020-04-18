@@ -36,7 +36,25 @@ let countDigits = toArray.length;
 console.log(' кількість цифр:', countDigits);
 
  // Завдання 5
-
+ let x = (`10 -2 5 6 0 -7 3 -3 0 57`);
+ let plus = 0;
+ let minus = 0;
+ let parni = 0;
+ let neParni = 0;
+ let nuliovi= 0;
+ let y = x.split(" ");
+ console.log (y);
+ for ( let i = 0; i < 10; i++ ){
+     if ( +y [i] > 0){
+         plus ++; 
+     }else if (+y [i]< 0){
+         minus ++;
+     }else if (+y [i] == 0){
+         nuliovi++
+     }
+    (+y[i] %2 === 0)? parni++ : neParni++ ;
+ }
+ console.log ( plus , minus , parni , neParni , nuliovi);
 
 
 
