@@ -21,21 +21,23 @@ a{
     align-items: center;
 }
 h1{
+    text-align: center;
     font-size: 60px;
     padding-top: 100px;
     color: pink;
 }
 .link{
-    padding: 20px;
+    
+    padding: 10px;
     color: pink;
 }
 .link1{
     margin-top: 100px;
 }
 .link4{
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 .link:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
     color: white;
 }
