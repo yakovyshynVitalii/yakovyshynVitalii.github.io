@@ -8,10 +8,143 @@
 .box {
   max-width: 1100px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-.container1 {
+.box .container1 {
   padding-top: 50px;
   width: 500px;
   margin: 0 auto;
+  padding-bottom: 100px;
+}
+.box #modal_button {
+  cursor: pointer;
+  margin: 0 auto;
+  border: 2px solid #ff66ff;
+  background-color: #ff4dff;
+  color: beige;
+  width: 150px;
+  height: 50px;
+  box-shadow: 1px 2px 24px -9px rgba(0, 0, 0, 0.75);
+}
+.box #filter {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  display: none;
+}
+.box #modal_form {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 150;
+  display: none;
+}
+.box #modal_form .model_content {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.box #modal_form .model_content .modal_img {
+  width: 350px;
+  height: 350px;
+  background-image: url(../img.png);
+  background-repeat: no-repeat;
+}
+.box #modal_form .model_content .modal_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 350px;
+  background-color: #f7f7f7;
+}
+.box #modal_form .model_content .modal_body .modal_title {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+.box #modal_form .model_content .modal_body .modal_text {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 18px;
+  color: black;
+}
+.box #modal_form .model_content .modal_body #close {
+  cursor: pointer;
+  border: 2px solid #ff66ff;
+  background-color: #ff4dff;
+  color: beige;
+  margin-top: 100px;
+  width: 150px;
+  height: 50px;
+  box-shadow: 1px 2px 24px -9px rgba(0, 0, 0, 0.75);
+}
+.box .container3 {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 500px;
+}
+.box .container3 .traffic_lights_body {
+  border: 2px solid black;
+  width: 200px;
+  height: 300px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+}
+.box .container3 .traffic_lights_body .traffic_light {
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  opacity: 1;
+}
+.box .container3 .traffic_lights_body .red {
+  border: 1px solid red;
+  background: red;
+  opacity: 0.3;
+}
+.box .container3 .traffic_lights_body .yellow {
+  border: 1px solid yellow;
+  background: yellow;
+  opacity: 0.3;
+}
+.box .container3 .traffic_lights_body .green {
+  border: 1px solid green;
+  background: green;
+  opacity: 0.3;
+}
+.box .container3 .traffic_lights_body .active {
+  opacity: 1;
+}
+.box #traffic_lights_button {
+  margin-left: 30px;
+  cursor: pointer;
+  border: 2px solid #ff66ff;
+  background-color: #ff4dff;
+  color: beige;
+  margin-top: 100px;
+  width: 150px;
+  height: 50px;
+  box-shadow: 1px 2px 24px -9px rgba(0, 0, 0, 0.75);
 }
