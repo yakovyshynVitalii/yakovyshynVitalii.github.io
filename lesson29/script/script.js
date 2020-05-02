@@ -34,21 +34,7 @@ let playList = [
         song: "ENTER SANDMAN"
     }   
     
-    
 ];
-// document.write (playList);
-
-// document.getElementById('list').innerHTML = playList;
-
-
-// function camelize(str) {
-//     return str
-//         .split(' ')
-//         .map(
-//             (word) => word[0].toUpperCase() + word.toLowerCase().slice(1)
-//         )
-//         .join(' ');
-// }
 
 function showList(arr) {
     let list = document.getElementById("list");
@@ -59,3 +45,44 @@ function showList(arr) {
     };
 };
 showList(playList);
+
+
+
+let showModal = function (state){
+    document.getElementById(`modal_form`).style.display = state;
+    document.getElementById(`filter`).style.display = state;
+}
+
+
+function nextColor() {
+
+    const trafficItems = document.querySelectorAll('.traffic_light');
+    const red = trafficItems[0], yellow = trafficItems[1], green = trafficItems[2];
+
+
+
+
+    function isColor(color) {
+        return color.classList.contains('active');
+    }
+    
+    function addRemoveColor(firstColor, secondColor = 0) {
+        if(secondColor === 0) {
+            firstColor.classList.add('active');
+        } else {
+            firstColor.classList.remove('active');
+            secondColor.classList.add('active');
+        }
+    }
+    
+
+    if (!isColor(red) && !isColor(yellow) && !isColor(green))
+        addRemoveColor(red);
+    else if (isColor(red))
+        addRemoveColor(red, yellow);
+    else if (isColor(yellow))
+        addRemoveColor(yellow, green);
+    else
+        addRemoveColor(green, red);
+
+}

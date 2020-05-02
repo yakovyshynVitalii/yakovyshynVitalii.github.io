@@ -14,14 +14,35 @@
             </ul>
         </div>
 
-        <div class="container2">
-
-        </div>
-
+        
+            <button id="modal_button" onclick="showModal(`block`)">Модальне вікно</button>
+            <div id="filter"></div>
+            <div id="modal_form">
+                
+                <div class="model_content">
+                    <div class="modal_img"></div>
+                    <div class="modal_body">
+                    <h2 class="modal_title">Привіт!</h2>
+                    <p class="modal_text">Ми раді тебе бачити!</p>
+                    <button id="close" onclick="showModal(`none`)">Продовжити роботу</button>
+                    </div>
+                </div>
+                
+            </div>
+        
         <div class="container3">
+            <div class="traffic_lights_body">
+                <div class="red traffic_light"></div>
+                <div class="yellow traffic_light"></div>
+                <div class="green traffic_light"></div>
+            </div>
 
+            <button id="traffic_lights_button" onclick="nextColor()">Next color </button>
         </div>
+
     </div>
+
+    
     <script src="script/script.js"></script>
 </body>
 </html>
