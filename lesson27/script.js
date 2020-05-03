@@ -17,14 +17,14 @@ product.push(bread);
 console.log(product);
 
 
-// function conclusion(x) {
-//     let noBuy = x.slice().sort(function (a, b) {
-//         if (a.bought > b.bought) return 1;
-//         else if (a.bought < b.bought) return -1;
-//     });
-//     return noBuy;
-// }
-// console.log(conclusion(product));
+function conclusion(x) {
+    let noBuy = x.slice().sort(function (a, b) {
+        if (a.bought > b.bought) return 1;
+        else if (a.bought < b.bought) return -1;
+    });
+    return noBuy;
+}
+console.log(conclusion(product));
 
 
 
