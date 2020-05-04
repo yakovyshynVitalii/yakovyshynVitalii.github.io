@@ -54,28 +54,24 @@ let showModal = function (state){
 }
 
 
+
+function isColor(color) {
+    return color.classList.contains('active');
+}
+
+function addRemoveColor(firstColor, secondColor = 0) {
+    if(secondColor === 0) {
+        firstColor.classList.add('active');
+    } else {
+        firstColor.classList.remove('active');
+        secondColor.classList.add('active');
+    }
+}
 function nextColor() {
 
     const trafficItems = document.querySelectorAll('.traffic_light');
     const red = trafficItems[0], yellow = trafficItems[1], green = trafficItems[2];
-
-
-
-
-    function isColor(color) {
-        return color.classList.contains('active');
-    }
     
-    function addRemoveColor(firstColor, secondColor = 0) {
-        if(secondColor === 0) {
-            firstColor.classList.add('active');
-        } else {
-            firstColor.classList.remove('active');
-            secondColor.classList.add('active');
-        }
-    }
-    
-
     if (!isColor(red) && !isColor(yellow) && !isColor(green))
         addRemoveColor(red);
     else if (isColor(red))
@@ -86,3 +82,4 @@ function nextColor() {
         addRemoveColor(green, red);
 
 }
+
