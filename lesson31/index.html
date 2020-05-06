@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link  href="jquery-3.5.1.min.js">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class=" input"> <form action="" name="form"><input type="text" name="textview" readonly>
+            </form>
+            </div>
+            <button class="item clean actions" onclick="clean()">C</button>
+            <button class="item back actions" onclick="back()">&larr;</button>
+            <button class="item actions" onclick="insert(`+`)">+</button>
+            <button class="item actions"onclick="insert(`-`)">-</button>
+            <button class="item actions"onclick="insert(`*`)">&times;</button>
+            <button class="item actions"onclick="insert(`/`)">&divide;</button>
+            <button class="item"onclick="insert(`7`)">7</button>
+            <button class="item"onclick="insert(`8`)">8</button>
+            <button class="item"onclick="insert(`9`)">9</button>
+            <button class="item"onclick="insert(`(`)">(</button>
+            <button class="item"onclick="insert(`4`)">4</button>
+            <button class="item"onclick="insert(`5`)">5</button>
+            <button class="item"onclick="insert(`6`)">6</button>
+            <button class="item"onclick="insert(`)`)">)</button>
+            <button class="item"onclick="insert(`1`)">1</button>
+            <button class="item"onclick="insert(`2`)">2</button>
+            <button class="item"onclick="insert(`3`)">3</button>
+            <button class="item "onclick="insert(`.`)">.</button>
+            <button class="item "onclick="insert(`0`)">0</button>
+            <button class="item equal actions" onclick="equal()">=</button>
+        </div>
+    </div>
+</body>
+</html>
