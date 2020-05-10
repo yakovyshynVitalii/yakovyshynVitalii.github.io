@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -5,7 +6,99 @@
     box-sizing: border-box;
 }
 
+body{
+    background: #292d3e;
+    font-family: 'Lato', sans-serif;
+
+}
+
 .container{
+    margin-top: 150px;
+}
+
+.header{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    width: 600px;
+    background-color: #2b3040;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu{
+    padding: 28px 28px 10px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+.menu_text{
+    padding-top:10px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 18px;
+}
+.menu:hover{
+    opacity: 1;
+    border-bottom:2px solid white;
+}
+
+.content{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #212534;
+    display: flex;
+    padding-top: 60px;
+    
+}
+.content_img{
+    margin-left: 50px;
+}
+.content_info{
+    padding-left: 40px;
+    position: relative;
+}
+
+h2{
+    color: white;
+    font-size: 32px;
+}
+.text_date{
+    padding-top: 10px;
+    color: white;
+    font-size: 14px;
+}
+.info_text{
+    padding-top: 45px;
+    color: white ;
+    font-size: 14px;
+    opacity: 0.7;
+}
+.score{
+    top:-10px;
+    right: 10px; 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/score.png) no-repeat center;
+    width: 80px;
+    height: 80px;
+    color: #aaadbb;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+.container1{
+   padding-top: 500px;
     width: 320px;
     margin: 0 auto;
 }
