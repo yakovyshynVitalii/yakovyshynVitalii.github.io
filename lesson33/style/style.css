@@ -6,7 +6,7 @@
   }
   
   body {
-    background-color: black;
+    background-color: purple;
   }
   
   input,
@@ -42,7 +42,7 @@
   }
   
   form .inputValue:hover {
-    border: 3px solid yellowgreen;
+    border: 3px solid lightpink;
   }
   
   form .selectType {
@@ -52,7 +52,7 @@
   }
   
   form .selectType:hover {
-    background-color: #474c47;
+    background-color: palevioletred;
     color: white;
   }
   
@@ -67,11 +67,11 @@
     text-decoration: none;
     border: none;
     border-radius: 3px;
-    background-color: rgba(250, 122, 36, 0.774);
+    background-color: lightpink;
   }
   
   form .submit:hover {
-    background-color: #24d124;
+    background-color: palevioletred;
   }
   
   .content {
@@ -113,7 +113,7 @@
   }
   
   .content .display p {
-    color: #ee0303;
+    color: palevioletred;
     font-size: 30px;
     padding-bottom: 20px;
   }
@@ -150,7 +150,7 @@
   }
   
   .content .display .item:hover {
-    background-color: #ff0808;
+    background-color: palevioletred;
   }
   
   .filmDetails {
@@ -187,7 +187,7 @@
   
   .filmDetails .full .itemSel span {
     font-weight: 600;
-    color: #929405;
+    color: palevioletred;
   }
   
   .filmDetails .full p {
