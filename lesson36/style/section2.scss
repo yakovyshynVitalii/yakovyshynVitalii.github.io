@@ -1,0 +1,63 @@
+#section2{
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+   
+
+    .section2_header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .section2_hr1{
+            width: 95px;
+            color: black;
+            // height: 1px;
+            margin-top: 95px;
+        }
+        .section2_title{
+            text-align: center;
+            margin-top: 30px;
+            font-size: 44px;
+            font-family: "Gotham",sans-serif ;;
+        }
+    }
+    
+
+    .section2_bg1 {
+       
+        left: 0px;
+        position: relative;
+        background-color: #55b7ff;
+        object-fit: cover;
+        width: 555px;
+        height: 445px;
+        top: 89px;
+    }
+    .section2_bg2 {
+        right: 0px;
+        top:905px;
+        position: absolute;
+        background-color: #7e5aff;
+        object-fit: cover;
+        width: 555px;
+        height: 445px;
+        
+    }
+    
+    .container1{
+        max-width: 1170px;
+        margin: 0 auto;
+        position: relative;
+
+        .container1_img {
+            top:-290px;
+            left: 30px;
+            background-image: url(../img/joel-filipe-151697.png);
+            position: absolute;
+            width: 600px;
+            height: 450px;
+            
+        }
+    }
+}
