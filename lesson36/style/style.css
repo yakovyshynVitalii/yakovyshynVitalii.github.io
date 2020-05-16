@@ -15,17 +15,16 @@
   margin: 0;
   box-sizing: border-box;
   line-height: 1;
-  font-family: "Gotham";
+  font-family: "Gotham", sans-serif;
 }
 
 #section1 {
   max-width: 1600px;
   margin: 0 auto;
-  height: 4000px;
 }
 #section1 .header.scroll {
   position: fixed;
-  width: 200%;
+  width: 100%;
   padding-top: 10px;
   background-color: #9a54e0;
 }
@@ -38,13 +37,14 @@
   position: absolute;
   padding-top: 50px;
   padding-left: 200px;
+  padding-right: 30px;
 }
 #section1 .header .menu {
   padding-left: 100px;
   padding-top: 15px;
 }
 #section1 .header .menu a {
-  font-family: "Gotham";
+  font-family: "GothamBook", sans-serif;
   font-size: 12px;
   text-decoration: none;
   color: white;
@@ -54,7 +54,7 @@
   padding-bottom: 5px;
 }
 #section1 .header .social1 {
-  margin-left: 75px;
+  margin-left: 85px;
 }
 #section1 .header .social {
   padding-top: 5px;
@@ -75,32 +75,89 @@
 }
 #section1 .slick1 {
   width: 100%;
-  height: 800px;
-  background-image: url(/lesson36/img/Bg.png);
+  height: 760px;
+  background: url(../img/6b8e241c-f935-42dc-9466-0540ed34cd68.jpg) center/cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 #section1 .slick1 .title {
+  font-family: "Gotham", sans-serif;
   color: white;
   text-align: center;
+  padding-top: 30px;
   font-size: 80px;
 }
 #section1 .slick1 .title_text {
+  font-family: "GothamBook", sans-serif;
   color: white;
   text-align: center;
   font-size: 15px;
-  letter-spacing: 6px;
+  letter-spacing: 7px;
   padding-top: 25px;
 }
 #section1 .arrow {
   position: absolute;
-  bottom: 85px;
+  bottom: 45px;
   z-index: 100;
   width: 41px;
   height: 41px;
 }
 #section1 .arrow:hover {
   transform: scale(1.2);
+}
+
+#section2 {
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
+}
+#section2 .section2_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#section2 .section2_header .section2_hr1 {
+  width: 95px;
+  color: black;
+  margin-top: 95px;
+}
+#section2 .section2_header .section2_title {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 44px;
+  font-family: "Gotham", sans-serif;
+}
+#section2 .section2_bg1 {
+  left: 0px;
+  position: relative;
+  background-color: #55b7ff;
+  object-fit: cover;
+  width: 555px;
+  height: 445px;
+  top: 89px;
+}
+#section2 .section2_bg2 {
+  right: 0px;
+  top: 905px;
+  position: absolute;
+  background-color: #7e5aff;
+  object-fit: cover;
+  width: 555px;
+  height: 445px;
+}
+#section2 .container1 {
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+#section2 .container1 .container1_img {
+  top: -290px;
+  left: 30px;
+  background-image: url(../img/joel-filipe-151697.png);
+  position: absolute;
+  width: 600px;
+  height: 450px;
 }

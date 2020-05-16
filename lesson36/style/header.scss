@@ -1,0 +1,100 @@
+#section1{
+    max-width: 1600px;
+    margin: 0 auto;
+    
+
+    .header.scroll{
+        position: fixed;
+        width: 100%;
+        padding-top: 10px;
+        background-color: rgb(154, 84, 224);
+    }
+    .header{
+        z-index: 100;
+        max-width: 1600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        padding-top: 50px;
+        padding-left: 200px;
+        padding-right:30px;
+    
+        .menu{
+            padding-left: 100px;
+            padding-top: 15px;
+            
+            
+            a{
+                font-family: "GothamBook",sans-serif;
+                font-size: 12px;
+                text-decoration: none;
+                color: white;
+            }
+            a:hover{
+                border-bottom:1.5px solid white;
+                padding-bottom: 5px;
+            }
+        }
+        .social1{
+            margin-left: 85px;
+        }
+        .social{
+            padding-top: 5px;
+            padding-left: 13px;
+        }
+        .social1:hover,
+        .social2:hover,
+        .social3:hover{
+            transform: scale(1.3);
+            
+        }
+        
+    }
+    .slick-next{
+         position: absolute;
+         opacity: 0;
+    }
+    .slick-prev{
+        position: absolute;
+        opacity: 0;
+   }
+    .slick1{
+        width: 100%;
+        height: 760px;
+        background: url(../img/6b8e241c-f935-42dc-9466-0540ed34cd68.jpg)center/cover no-repeat ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+        .title{
+            font-family: "Gotham",sans-serif ;
+            color: white;
+            text-align: center;
+            padding-top: 30px;
+            font-size: 80px;
+         }
+        .title_text{
+            font-family: "GothamBook",sans-serif ;
+            color: white;
+            text-align: center;
+            font-size: 15px;
+            letter-spacing: 7px;
+            padding-top: 25px;
+         }
+    }
+
+    .arrow{
+        position: absolute;
+        bottom: 45px;
+        z-index: 100;
+        width: 41px;
+        height: 41px;
+
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
