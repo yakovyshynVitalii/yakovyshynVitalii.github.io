@@ -7,7 +7,8 @@
         position: fixed;
         width: 100%;
         padding-top: 10px;
-        background-color: rgb(154, 84, 224);
+        background-color: #7e5aff;
+        
     }
     .header{
         z-index: 100;
@@ -19,10 +20,16 @@
         padding-top: 50px;
         padding-left: 200px;
         padding-right:30px;
-    
+        @media screen and (max-width: 1300px) {
+            padding-left: 20px;
+        }
+        
         .menu{
             padding-left: 100px;
             padding-top: 15px;
+            @media screen and (max-width: 1300px) {
+                padding-left: 50px;
+            }
             
             
             a{
@@ -38,6 +45,9 @@
         }
         .social1{
             margin-left: 85px;
+            @media screen and (max-width: 970px) {
+                margin-left: 30px;
+            }
         }
         .social{
             padding-top: 5px;
@@ -53,14 +63,50 @@
     }
     .slick-next{
          position: absolute;
-         opacity: 0;
+         display: none;
     }
     .slick-prev{
         position: absolute;
-        opacity: 0;
+        display: none;
    }
+   .slick-dots{
+       z-index: 100;
+       position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 10%;
+    top: 200px;
+
+    @media screen and (max-width: 850px) {
+        flex-direction: row;
+        bottom: -200px;
+        left: 55px;
+    }
+
+    }
+    li{
+        list-style: none;
+    }
+    button{
+        margin-top: 50px;
+        margin-left: 30px;
+        font-size: 0;
+        width: 7px;
+        height: 7px;
+        background-color:transparent;
+        border: 1px solid white;
+        border-radius: 50%;
+
+        
+    }
+    .slick-active button{
+        border-radius: 50%;
+        background-color: white;
+        
+    }
     .slick1{
-        width: 100%;
         height: 760px;
         background: url(../img/6b8e241c-f935-42dc-9466-0540ed34cd68.jpg)center/cover no-repeat ;
         display: flex;
@@ -74,15 +120,15 @@
             color: white;
             text-align: center;
             padding-top: 30px;
-            font-size: 80px;
+            @include adaptiv-font(80, 34);
          }
         .title_text{
             font-family: "GothamBook",sans-serif ;
             color: white;
             text-align: center;
-            font-size: 15px;
             letter-spacing: 7px;
             padding-top: 25px;
+            @include adaptiv-font(15, 12);
          }
     }
 

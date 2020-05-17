@@ -2,8 +2,8 @@
     max-width: 1600px;
     height: 1637px;
     margin: 0 auto;
-    position: relative;
     background-image: url(../img/Section2_bg.png);
+
 
     .section2_header{
         display: flex;
@@ -13,7 +13,6 @@
         .section2_hr1{
             width: 95px;
             color: black;
-            // height: 1px;
             margin-top: 95px;
         }
         .section2_title{
@@ -25,16 +24,15 @@
     }
     
     .container1{
-        // max-width: 1170px;
+        max-width: 1170px;
         margin: 0 auto;
-        float: left;
         display: flex;
         flex-direction: row;
         
 
         .container1_img {
+            float: left;
             background-image: url(../img/joel-filipe-151697.png);
-            margin-left: 200px;
             margin-top: 130px;
             width: 600px;
             height: 470px;
@@ -44,7 +42,7 @@
         .container1_content{
             padding-right: 20px;
             margin-top: 210px;
-            margin-left: 70px;
+            margin-left: 50px;
             
             .content_text1{
                 font-size: 22px;
@@ -58,6 +56,67 @@
                 font-size: 18px;
                 padding-top: 25px;
             }
+            .container1_button{
+                width: 180px;
+                height: 50px;
+                border: 1px solid black;
+                background-color: white;
+                margin-top: 30px;
+
+                &:hover{
+                    background-color: #55b7ff;
+                    border: #55b7ff;
+                    color: white;
+                    transition: 0.7s;
+                }
+            }
         }
+    }
+
+    .container2{
+        max-width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 110px;
+        .container2_content{
+
+            .content2_text1{
+                margin-top: 250px;
+                font-size: 22px;
+            }
+            .content2_title{
+                font-size: 44px;
+                padding-top: 5px;
+            }
+            .content2_text2{
+                line-height: 1.5;
+                font-size: 18px;
+                padding-top: 25px;
+            }
+            .container2_button{
+                width: 180px;
+                height: 50px;
+                border: 1px solid black;
+                background-color: white;
+                margin-top: 30px;
+
+                &:hover{
+                    background-color: #7e5aff;
+                    border: #7e5aff;
+                    color: white;
+                    transition: 0.7s;
+                }
+            }
+        }
+        .container2_img{
+            float: right;
+            background-image: url(../img/photos-1284iH4Hjf4mhNgW.png);
+            margin-top: 200px;
+            margin-left: 50px;
+            width: 600px;
+            height: 470px;
+        }
+        
     }
 }

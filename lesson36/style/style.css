@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
 @font-face {
   font-family: "Gotham";
   src: url(../fonts/GothamMediumRegular/gotham-medium-webfont.woff), url(../fonts/GothamMediumRegular/gotham-medium-webfont.woff2), url(../fonts/GothamMediumRegular/GothamMediumRegular.ttf);
@@ -26,7 +27,7 @@
   position: fixed;
   width: 100%;
   padding-top: 10px;
-  background-color: #9a54e0;
+  background-color: #7e5aff;
 }
 #section1 .header {
   z-index: 100;
@@ -39,9 +40,19 @@
   padding-left: 200px;
   padding-right: 30px;
 }
+@media screen and (max-width: 1300px) {
+  #section1 .header {
+    padding-left: 20px;
+  }
+}
 #section1 .header .menu {
   padding-left: 100px;
   padding-top: 15px;
+}
+@media screen and (max-width: 1300px) {
+  #section1 .header .menu {
+    padding-left: 50px;
+  }
 }
 #section1 .header .menu a {
   font-family: "GothamBook", sans-serif;
@@ -56,6 +67,11 @@
 #section1 .header .social1 {
   margin-left: 85px;
 }
+@media screen and (max-width: 970px) {
+  #section1 .header .social1 {
+    margin-left: 30px;
+  }
+}
 #section1 .header .social {
   padding-top: 5px;
   padding-left: 13px;
@@ -67,14 +83,47 @@
 }
 #section1 .slick-next {
   position: absolute;
-  opacity: 0;
+  display: none;
 }
 #section1 .slick-prev {
   position: absolute;
-  opacity: 0;
+  display: none;
+}
+#section1 .slick-dots {
+  z-index: 100;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  right: 10%;
+  top: 200px;
+}
+@media screen and (max-width: 850px) {
+  #section1 .slick-dots {
+    flex-direction: row;
+    bottom: -200px;
+    left: 55px;
+  }
+}
+#section1 li {
+  list-style: none;
+}
+#section1 button {
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 0;
+  width: 7px;
+  height: 7px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#section1 .slick-active button {
+  border-radius: 50%;
+  background-color: white;
 }
 #section1 .slick1 {
-  width: 100%;
   height: 760px;
   background: url(../img/6b8e241c-f935-42dc-9466-0540ed34cd68.jpg) center/cover no-repeat;
   display: flex;
@@ -87,15 +136,15 @@
   color: white;
   text-align: center;
   padding-top: 30px;
-  font-size: 80px;
+  font-size: calc(34px + 46 * ((100vw - 320px) / 1280));
 }
 #section1 .slick1 .title_text {
   font-family: "GothamBook", sans-serif;
   color: white;
   text-align: center;
-  font-size: 15px;
   letter-spacing: 7px;
   padding-top: 25px;
+  font-size: calc(12px + 3 * ((100vw - 320px) / 1280));
 }
 #section1 .arrow {
   position: absolute;
@@ -112,7 +161,6 @@
   max-width: 1600px;
   height: 1637px;
   margin: 0 auto;
-  position: relative;
   background-image: url(../img/Section2_bg.png);
 }
 #section2 .section2_header {
@@ -133,14 +181,14 @@
   font-family: "Gotham", sans-serif;
 }
 #section2 .container1 {
+  max-width: 1170px;
   margin: 0 auto;
-  float: left;
   display: flex;
   flex-direction: row;
 }
 #section2 .container1 .container1_img {
+  float: left;
   background-image: url(../img/joel-filipe-151697.png);
-  margin-left: 200px;
   margin-top: 130px;
   width: 600px;
   height: 470px;
@@ -148,7 +196,7 @@
 #section2 .container1 .container1_content {
   padding-right: 20px;
   margin-top: 210px;
-  margin-left: 70px;
+  margin-left: 50px;
 }
 #section2 .container1 .container1_content .content_text1 {
   font-size: 22px;
@@ -161,4 +209,448 @@
   line-height: 1.5;
   font-size: 18px;
   padding-top: 25px;
+}
+#section2 .container1 .container1_content .container1_button {
+  width: 180px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: white;
+  margin-top: 30px;
+}
+#section2 .container1 .container1_content .container1_button:hover {
+  background-color: #55b7ff;
+  border: #55b7ff;
+  color: white;
+  transition: 0.7s;
+}
+#section2 .container2 {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 110px;
+}
+#section2 .container2 .container2_content .content2_text1 {
+  margin-top: 250px;
+  font-size: 22px;
+}
+#section2 .container2 .container2_content .content2_title {
+  font-size: 44px;
+  padding-top: 5px;
+}
+#section2 .container2 .container2_content .content2_text2 {
+  line-height: 1.5;
+  font-size: 18px;
+  padding-top: 25px;
+}
+#section2 .container2 .container2_content .container2_button {
+  width: 180px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: white;
+  margin-top: 30px;
+}
+#section2 .container2 .container2_content .container2_button:hover {
+  background-color: #7e5aff;
+  border: #7e5aff;
+  color: white;
+  transition: 0.7s;
+}
+#section2 .container2 .container2_img {
+  float: right;
+  background-image: url(../img/photos-1284iH4Hjf4mhNgW.png);
+  margin-top: 200px;
+  margin-left: 50px;
+  width: 600px;
+  height: 470px;
+}
+
+#section3 {
+  max-width: 1600px;
+  margin: 0 auto;
+  background: url(../img/Bg_section3.png);
+  height: 985px;
+}
+#section3 .section3_header {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-top: 131px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#section3 .section3_header .section3_hr1 {
+  z-index: 50;
+  width: 95px;
+  color: white;
+}
+#section3 .section3_header .section3_title {
+  font-family: "Gotham", sans-serif;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40px;
+}
+#section3 .section3_slick {
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+#section3 .section3_slick .slick-arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 0;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 1280px) {
+  #section3 .section3_slick .slick-arrow {
+    top: 100%;
+  }
+}
+#section3 .section3_slick .slick-arrow:hover {
+  transform: scale(1.2);
+  transition: 0.7s;
+}
+#section3 .section3_slick .slick-prev {
+  background: url(../img/arrow-left.png) center;
+  width: 40px;
+  height: 40px;
+  left: -70px;
+}
+@media screen and (max-width: 1280px) {
+  #section3 .section3_slick .slick-prev {
+    left: 30%;
+  }
+}
+#section3 .section3_slick .slick-next {
+  right: -50px;
+  background: url(../img/arrow-right.png) center;
+  width: 40px;
+  height: 40px;
+}
+@media screen and (max-width: 1280px) {
+  #section3 .section3_slick .slick-next {
+    right: 28%;
+  }
+}
+#section3 .section3_slick .slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section3 .section3_slick .slick-dots li {
+  list-style: none;
+}
+#section3 .section3_slick .slick-dots button {
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 0;
+  width: 7px;
+  height: 7px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#section3 .section3_slick .slick-dots .slick-active button {
+  border-radius: 50%;
+  background-color: white;
+}
+#section3 .section3_slick .slick_content {
+  padding-top: 105px;
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  padding-left: 10px;
+}
+@media screen and (max-width: 380px) {
+  #section3 .section3_slick .slick_content {
+    padding-left: 3px;
+  }
+}
+#section3 .section3_slick .slick_content .content_img1 {
+  width: 370px;
+  height: 240px;
+  background-image: url(../img/section3_img1.png);
+}
+#section3 .section3_slick .slick_content .content_img2 {
+  width: 370px;
+  height: 240px;
+  background-image: url(../img/section3_img2.png);
+}
+#section3 .section3_slick .slick_content .content_img3 {
+  width: 370px;
+  height: 240px;
+  background-image: url(../img/section3_img3.png);
+}
+#section3 .section3_slick .slick_content .content_img4 {
+  width: 370px;
+  height: 240px;
+  background-image: url(../img/info_img4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#section3 .section3_slick .slick_content .content_img5 {
+  width: 370px;
+  height: 240px;
+  background-image: url(../img/info_img5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#section3 .section3_slick .slick_content .inform {
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 20px;
+  width: 370px;
+}
+#section3 .section3_slick .slick_content .inform .inform_title {
+  font-weight: bold;
+  padding-top: 30px;
+  line-height: 1.5;
+  font-size: calc(16px + 4 * ((100vw - 320px) / 1280));
+}
+#section3 .section3_slick .slick_content .inform .inform_text {
+  padding-top: 15px;
+  font-family: "Open Sans", sans-serif;
+  opacity: 0.6;
+  font-size: calc(14px + 4 * ((100vw - 320px) / 1280));
+}
+#section3 .section3_slick .slick_content .user {
+  padding-top: 35px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  width: 370px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: start;
+}
+#section3 .section3_slick .slick_content .user .user_foto1 {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/user_foto1.png);
+}
+#section3 .section3_slick .slick_content .user .user_foto2 {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/user_foto2.png);
+}
+#section3 .section3_slick .slick_content .user .user_foto3 {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/user_foto3.png);
+}
+#section3 .section3_slick .slick_content .user .name {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: "GothamBook", sans-serif;
+  font-size: 18px;
+}
+#section3 .section3_slick .slick_content .user .date {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-family: "GothamBook", sans-serif;
+  font-size: 14px;
+  color: #65bcff;
+}
+
+#section4 {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#section4 .section4_header {
+  max-width: 1170px;
+  padding-top: 130px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#section4 .section4_header .section4_hr1 {
+  z-index: 50;
+  width: 95px;
+  color: black;
+}
+#section4 .section4_header .section4_title {
+  font-family: "Gotham", sans-serif;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40px;
+}
+#section4 .section4_content {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-top: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+#section4 .section4_content .foto-360 {
+  position: relative;
+}
+#section4 .section4_content .foto-360 .icon-360 {
+  top: 175px;
+  left: 250px;
+  z-index: 100;
+  position: absolute;
+}
+#section4 .section4_content .gallery-foto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: flex-start;
+}
+#section4 .section4_content .gallery-foto .foto {
+  padding-left: 10px;
+  padding-top: 5px;
+}
+#section4 .gallery_button {
+  margin-top: 40px;
+  width: 190px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid black;
+  margin-bottom: 100px;
+}
+#section4 .gallery_button:hover {
+  background-color: #7e5aff;
+  border: #7e5aff;
+  color: white;
+  transition: 0.7s;
+}
+
+#section5 {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+#section5 #map {
+  height: 700px;
+  width: 100%;
+}
+
+#footer {
+  max-width: 1600px;
+  height: 524px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/Bg_footer.png);
+}
+#footer .footer_container {
+  position: absolute;
+  top: -300px;
+  max-width: 770px;
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer .footer_container .footer_hr1 {
+  margin-top: 60px;
+  z-index: 50;
+  width: 95px;
+  color: black;
+}
+#footer .footer_container .footer_title {
+  font-family: "Gotham", sans-serif;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40px;
+}
+#footer .footer_container .footer_box {
+  padding-right: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+}
+#footer .footer_container .footer_box .inform_text {
+  padding-left: 50px;
+  padding-top: 40px;
+}
+#footer .footer_container .footer_box .inform_text #icomoon-ignore {
+  background-color: #7e5aff;
+}
+#footer .footer_container .footer_box .inform_user {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-top: 0px;
+}
+#footer .footer_container .footer_box .inform_user #user_name {
+  margin-top: 20px;
+  padding-left: 10px;
+  width: 300px;
+  height: 50px;
+  color: black;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+  font-family: "GothamBook", sans-serif;
+}
+#footer .footer_container .footer_box .inform_user #user_email {
+  margin-top: 30px;
+  padding-left: 10px;
+  width: 300px;
+  height: 50px;
+  color: black;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+  font-family: "GothamBook", sans-serif;
+}
+#footer .footer_container .footer_box .inform_user .inform_user_button {
+  margin-left: 170px;
+  margin-top: 40px;
+  width: 130px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid black;
+  margin-bottom: 50px;
+}
+#footer .footer_container .footer_box .inform_user .inform_user_button:hover {
+  background-color: #7e5aff;
+  border: #7e5aff;
+  color: white;
+  transition: 0.7s;
+}
+#footer .footer_info {
+  margin-top: 100px;
+  max-width: 770px;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+}
+#footer .footer_info .box1 {
+  padding-right: 200px;
+}
+#footer .footer_info .box1 .text {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  font-family: "GothamBook", sans-serif;
+  color: white;
+  font-size: 14px;
+}
+#footer .footer_info .box1 .text .text2 {
+  padding-left: 50px;
 }
