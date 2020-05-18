@@ -25,10 +25,10 @@ $('.container').slick({
     dots: true,
     responsive: [
         {
-            breakpoint: 1200,
+            breakpoint: 913,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToScroll: 1
             }
         },
         {
@@ -39,9 +39,9 @@ $('.container').slick({
             }
         },
         {
-            breakpoint: 425,
+            breakpoint: 600,
             settings: {
-                dots: false,
+                dots: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
             }
