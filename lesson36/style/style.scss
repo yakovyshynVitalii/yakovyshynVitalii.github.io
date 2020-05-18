@@ -16,6 +16,8 @@
     url(../fonts/GothamBook/GothamBook.ttf)
     url(../fonts/GothamBook/GothamBook.woff)
 }
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
+
 *{
     padding: 0;
     margin: 0;
@@ -23,7 +25,14 @@
     line-height: 1;
     font-family: 'Gotham', sans-serif;
 }
+@import"../style/mixin.scss";
+
+
 
 @import "../style/header.scss";
 @import "../style/section2.scss";
+@import "../style/section3.scss";
+@import "../style/section4.scss";
+@import "../style/section5.scss";
+@import"../style/footer.scss";
 

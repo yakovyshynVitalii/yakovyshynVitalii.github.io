@@ -1,0 +1,114 @@
+#section4{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .section4_header{
+        max-width: 1170px;
+        padding-top: 130px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .section4_hr1{
+            z-index: 50;
+            width: 95px;
+            color: black;
+            // height: 1px;
+        }
+        .section4_title{
+            font-family: "Gotham",sans-serif ;
+            font-weight: 500;
+            color: black;
+            text-align: center;
+            padding-top: 30px;
+            font-size: 40px;
+        }
+    }
+    .section4_content{
+        max-width: 1170px;
+        margin: 0 auto;
+        padding-top: 90px;
+        display: flex;
+        flex-direction: row;
+        justify-content:start;
+        align-items: center;
+        @media screen and (max-width: 1170px) {
+            flex-direction: column;
+        }
+        @media screen and (max-width: 605px) {
+            flex-direction: column;
+            justify-content: center;
+            align-self:center;
+        }
+        
+        .foto-360{
+            position: relative;
+            background-image: url(../img/scott-webb-176434.png);
+            width: 580px;
+            height: 438px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            @media screen and (max-width: 605px) {
+                width: 398px;
+                height: 398px;
+            }
+            @media screen and (max-width: 401px) {
+                width: 280px;
+                height: 280px;
+            }
+
+            .icon-360{
+                top: 175px;
+                left: 250px;
+                z-index: 100;
+                position: absolute;
+
+                @media screen and (max-width: 605px) {
+                  top: 40%;
+                  left: 40%;
+                }
+                
+            }
+        }
+        
+        .gallery-foto{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: start;
+            align-items: flex-start;
+            @media screen and (max-width: 1170px) {
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+            .foto{
+                padding-left: 10px;
+                padding-top: 5px;
+            }
+        } 
+    }
+    .gallery_button{
+        margin-top: 40px;
+        width: 190px;
+        height: 50px;
+        background-color: white;
+        border: 1px solid black;
+        margin-bottom: 100px;
+
+        &:hover{
+            background-color: #7e5aff;
+            border: #7e5aff;
+            color: white;
+            transition: 0.7s;
+        }
+    }
+    
+}
