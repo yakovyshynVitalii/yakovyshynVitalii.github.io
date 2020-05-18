@@ -26,7 +26,8 @@
     font-family: 'Gotham', sans-serif;
 }
 @import"../style/mixin.scss";
-
+@import"../style/normalize.scss";
+@import"../style/reset.scss";
 
 
 @import "../style/header.scss";
