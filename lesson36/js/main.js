@@ -1,9 +1,9 @@
 $(window).scroll(function(){
     if ($(window).scrollTop() > 300) {
-        $('.header').addClass('scroll');
+        $('.nav').addClass('scroll');
     }
     else {
-        $('.header').removeClass('scroll')
+        $('.nav').removeClass('scroll')
     }
 });
 
