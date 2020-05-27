@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+.section{
+    max-width: 1700px;
+    margin:0 auto;
+}
+
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-top: 85px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 1px 1px;
+    grid-template-areas: "img1 img1 img2" "img1 img1 img3" "img4 img5 img6";
+  }
+  
+.img1 { grid-area: img1;
+    background-image: url(../img/1.jpg);
+    width: 982px;
+    height: 776px;
+ }
+  
+.img2 { grid-area: img2; 
+    background-image: url(../img/2.jpg);
+    width: 461px;
+    height: 360px;
+   
+}
+  
+.img3 { grid-area: img3;
+    background-image: url(../img/3.jpg);
+    width: 461px;
+    height: 360px; 
+    margin-top: 27px;
+}
+  
+.img4 { grid-area: img4; 
+    background-image: url(../img/4.jpg);
+    width: 460px;
+    height: 578px; 
+    margin-top: 20px;
+}
+
+.img5 { grid-area: img5; 
+    background-image: url(../img/5.jpg);
+    width: 460px;
+    height: 578px; 
+    margin-top: 20px;
+}
+
+.img6 { grid-area: img6;
+    background-image: url(../img/6.jpg);
+    width: 460px;
+    height: 578px; 
+    margin-top: 20px;
+}
+.grid-container2 {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "img7 img8 img9 img10" "img11 img12 img13 img14";
+  }
+  
+  .img{
+    width: 424px;
+    height: 424px;
+  }
+  .img7 { grid-area: img7; 
+    background-image: url(../img/7.jpg);
+}
+  
+  .img8 { grid-area: img8; 
+    background-image: url(../img/8.jpg);
+}
+  
+  .img9 { grid-area: img9; 
+    background-image: url(../img/9.jpg);
+}
+  
+  .img10 { grid-area: img10; 
+    background-image: url(../img/10.jpg);
+}
+  
+  .img11 { grid-area: img11; 
+    background-image: url(../img/11.jpg);
+}
+  
+  .img12 { grid-area: img12; 
+    background-image: url(../img/12.jpg);
+}
+  
+  .img13 { grid-area: img13; 
+    background-image: url(../img/13.jpg);
+}
+  
+  .img14 { grid-area: img14; 
+    background-image: url(../img/14.jpg);
+}
+
