@@ -1,0 +1,99 @@
+
+#Home{
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: -30px;
+    .Home_title{
+        background-image: url(../img/foto.png);
+        height: 416px;
+        width: 100%;
+        position: relative;
+        margin-top: 50px;
+        padding-top: 416px;
+        
+        @media (max-width: 991px){
+           margin-left:0px ;
+            
+        }
+        h1{
+            position: absolute;
+            top: -120px;
+            left: 50px;
+            font-family: Impact;
+            font-weight: bold;
+            font-size: 190px;
+            // @include adaptiv-font(190, );
+            color: #ff4a22;
+
+            @media (max-width: 991px){
+                
+                font-size: 100px;
+                top: -65px;
+                
+
+            }
+            @media (max-width: 534px){
+                text-align: center;
+                font-size: 73px;
+                top: -50px;
+                left: 0px;
+            }
+        }
+
+        .title_text{
+            top: -270px;
+            right:  301px;
+            position: absolute;
+            border: 1px solid #ff4a22 ;
+            border-radius: 50%;
+            padding: 170px 90px 170px 230px;
+            font-family: "Roboto",sans-serif;
+            font-size: 12px;
+            
+            @media (max-width: 1324px) {
+                display: none;
+            }
+          span{
+              color: #ff4a22;
+          }
+        }
+
+        .img_text{
+            position: absolute;
+            right: 50px;
+            top: 30px;
+            line-height: 1.5;
+            text-align: center;
+            float: right;
+            color: white;
+            font-size: 12px;
+        }
+        .hr1{
+            position: absolute;
+           top: 210px;
+            right: 53px;
+            height: 160px;
+            width: 0px;
+            color: white;
+            background-color: white;
+        }
+
+        .hr2{
+            position: absolute;
+            top: 140px;
+            left: 53px;
+            height: 180px;
+            width: 0px;
+            color: white;
+            background-color: white;
+        }
+        .decoration{
+            position: absolute;
+           bottom: -80px;
+            left: 10px;
+            height: 160px;
+            width: 0px;
+            color: white;
+        }
+    }
+}

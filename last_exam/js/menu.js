@@ -8,10 +8,10 @@ $(document).ready(function(){
 $(window).scroll(function(){
     if ($(window).scrollTop() > 300) {
         $('header').addClass('scroll');
-        $('.icons').addClass('none_icons');
+        $('.soc_links').addClass('none_soc_links');
     }
     else {
         $('header').removeClass('scroll')
-        $('.icons').removeClass('none_icons');
+        $('.soc_links').removeClass('none_soc_links');
     }
 });
