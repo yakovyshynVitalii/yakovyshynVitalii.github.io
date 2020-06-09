@@ -2,7 +2,12 @@
 #Home{
     max-width: 1600px;
     margin: 0 auto;
-    margin-top: -30px;
+    margin-top: 350px;
+    @media (max-width: 991px){
+       margin-top: 160px;
+        
+         
+     }
     .Home_title{
         background-image: url(../img/foto.png);
         height: 416px;
@@ -13,11 +18,12 @@
         
         @media (max-width: 991px){
            margin-left:0px ;
+           
             
         }
         h1{
             position: absolute;
-            top: -120px;
+            top: -130px;
             left: 50px;
             font-family: Impact;
             font-weight: bold;
@@ -88,6 +94,7 @@
             background-color: white;
         }
         .decoration{
+            z-index: 1000;
             position: absolute;
            bottom: -80px;
             left: 10px;

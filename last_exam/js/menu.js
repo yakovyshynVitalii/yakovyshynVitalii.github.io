@@ -6,7 +6,7 @@ $(document).ready(function(){
 })
 
 $(window).scroll(function(){
-    if ($(window).scrollTop() > 300) {
+    if ($(window).scrollTop() > 500) {
         $('header').addClass('scroll');
         $('.soc_links').addClass('none_soc_links');
     }
