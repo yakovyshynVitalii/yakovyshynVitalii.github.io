@@ -1,8 +1,7 @@
 #Albums{
-    max-width: 1600px;
+    max-width: 1550px;
     margin: 0 auto;
     background-color: #dfdfdf;
-   
     font-family: 'Roboto', sans-serif;
     position: relative;
 
@@ -32,7 +31,7 @@
         @media (max-width: 970px){
             text-align: center;
             margin: 0 auto;
-            width: 300px;
+            width: 280px;
          }
     }
 
@@ -46,20 +45,27 @@
         .albums{
             z-index: 500;
             padding: 50px 18px;
+            
+            @media (max-width: 325px){
+                padding: 50px 0px;
+             }
             .albums_img1{
                 background-image: url(../img/foto1.png);
-                width: 287px;
+                width: 278px;
                 height: 263px;
+                
             }
             .albums_img2{
                 background-image: url(../img/foto2.png);
-                width: 287px;
+                width: 278px;
                 height: 263px;
+                
             }
             .albums_img3{
                 background-image: url(../img/foto3.png);
-                width: 287px;
+                width: 278px;
                 height: 263px;
+                
             }
 
             h3{
@@ -77,9 +83,9 @@
                 font-size: 12px;
             }
             .player-example{
-                display: flex;
                 padding-top: 25px;
-                margin-left: 15px;
+                padding-left: 40px;
+                margin-left: 20px;
                 font-size: 12px;
                 font-weight: 400;
                 width: 65px;
@@ -88,13 +94,22 @@
                     border-bottom: 1px solid rgba(0, 0, 0, 1);
                 }
                 button{
+                    position: relative;
+                    display: flex;
                     margin-top: -7px;
-                    margin-left: 5px;
                     width: 24px;
                     height: 24px;
-                    background: url(../img/media-fast-forward-outline.png);
+                    background: url(../img/media-fast-forward-outline.png) ;
                     background-repeat: no-repeat;
                     border: none;
+
+                    span{
+                        left: -40px;
+                       position: absolute;
+                        margin-top: 5px;
+                        font-family: "Roboto-Regular" ,sans-serif;
+                        color: black;
+                    }
                 }
                 .pause{
                   background-repeat: no-repeat;

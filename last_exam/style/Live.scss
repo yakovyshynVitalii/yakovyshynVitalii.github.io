@@ -1,0 +1,165 @@
+#Live{
+    max-width: 1550px;
+    margin: 0 auto;
+    background-color: #dfdfdf;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+
+    .Live_decoration{
+        z-index: 100;
+        left: 450px;
+        top: -100px;
+        position: absolute;
+        border: 2px solid white;
+        border-radius: 50%;
+        padding: 210px;
+
+        @media (max-width: 915px){
+            display: none;
+            
+           }
+    }
+    .Live_decoration2{
+        z-index: 100;
+        left: 450px;
+        bottom: -200px;
+        position: absolute;
+        border: 2px solid white;
+        border-radius: 50%;
+        padding: 80px;
+
+        @media (max-width: 614px){
+            display: none;
+            
+           }
+
+    }
+    .Live_title{
+        padding-left: 55px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-end;
+        @media (max-width: 915px){
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            padding-top: 30px;
+            padding-left: 0px;
+            
+           }
+
+        .Live_title_img{
+            background-image: url(../img/foto7.png);
+            width: 572px;
+            height: 304px;
+
+            @media (max-width: 571px){
+                background-image: url(../img/foto7_506px.png);
+                width: 506px;
+                height: 269px;
+                
+               }
+               @media (max-width: 507px){
+                background-image: url(../img/foto7_400px.png);
+                width: 400px;
+                height: 210px;
+                
+               }
+               @media (max-width: 401px){
+                background-image: url(../img/foto7_320px.png);
+                width: 320px;
+                height: 170px;
+                
+               }
+               @media (max-width: 353px){
+                background-image: url(../img/foto7_280px.png);
+                width: 280px;
+                height: 150px;
+                
+               }
+        }
+
+        h2{
+            z-index: 200;
+            color: #ff4a22;
+            padding-left: 10px;
+            padding-right: 30px;
+            font-size: 32px;
+            border-bottom: 1px solid black;
+            font-family: 'Roboto-Regular', sans-serif;
+            @media (max-width: 915px){
+                margin-bottom: 10px;
+                padding-left: 0px;
+                text-align: center;
+               }
+        }
+    }
+    .Live_container_title{
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        max-width: 800px;
+        font-size: 24px;
+        font-family:"Roboto-Regular" ,sans-serif;
+        color: black;
+        border-bottom:1px solid black ;
+
+          
+        @media (max-width: 590px){
+            text-align: center;
+            
+           }
+    }
+    .tickets{
+        margin: 0 auto;
+        max-width: 800px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 10px;
+        padding-top: 20px;
+        padding-left: 25px;
+        padding-right:50px ;
+        align-items: center;
+        border-bottom: 1px solid black;
+        
+        @media (max-width: 590px){
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 10px;
+            padding-left: 0px;
+            padding-right: 0px;
+            
+           }
+      
+        p{
+            text-align: left;
+            font-size: 18px;
+            font-family:"Roboto-Regular" ,sans-serif;
+            
+            @media (max-width: 590px){
+                padding-bottom: 10px;
+               }
+
+            span{
+                font-size: 28px;
+            }
+        }
+        button{
+            margin-bottom: 10px;
+            width: 160px;
+            border: 1px solid black;
+            background-color: #dfdfdf;
+            color: black;
+            
+            &:hover{
+                border: 1px solid  #ff4a22;
+                background-color:  #ff4a22;
+                color: white;
+                transition: 0.5s;
+            }
+        }
+    }
+}

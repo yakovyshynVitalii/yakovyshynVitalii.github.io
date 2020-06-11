@@ -16,6 +16,7 @@ footer{
 
 .icons{
     padding-top: 35px;
+    padding-left: 10px;
     /* margin-left: -20px; */
     display: flex;
     flex-direction: row;
