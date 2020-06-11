@@ -1,0 +1,120 @@
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.icons{
+    padding-top: 35px;
+    /* margin-left: -20px; */
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    padding:0px 5px;
+}
+
+.menu ul{
+    padding-top: 15px;
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li{
+    padding: 0px 50px;
+    font-size: 14px;   
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+.menu p{
+    border-top:1px solid black ;
+    margin-top: 20px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 11px;
+    padding-bottom: 20px;
+}
+
+.sub p{
+    padding-top: 15px;
+    font-size: 14px;
+
+}
+
+input{
+    margin-top: 5px;
+    width: 230px;
+    height: 36px;
+    padding-left: 10px;
+}
+
+button{
+    width: 90px;
+    height: 36px;
+    border-color: #ff4a22;
+    background-color: #ff4a22;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+@media (max-width: 1285px){
+    footer{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu{
+        padding-top: 20px;
+    }
+    .menu p{
+        padding-bottom: 0px;
+    }
+    .icons{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 753px){
+    .menu ul li {
+        padding: 0px 30px;
+    }
+}
+
+@media (max-width: 556px){
+    .menu ul li {
+        padding: 0px 10px;
+    }
+
+    .sub{
+        text-align: center;
+    }
+    form{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+    button{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 353px){
+    .menu ul li {
+        padding: 0px 5px;
+    }
+}
