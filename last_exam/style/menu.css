@@ -62,7 +62,7 @@
     cursor: pointer;
   }
   header .menu-toggle {
-    z-index:1000 ;
+    z-index:1500 ;
     float: right;
     margin-right: 30px;
     margin-top: 10px;

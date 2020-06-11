@@ -11,15 +11,15 @@ $('.player-example button').click(function () {
 	
 	if (audio.paused == false) {
 		audio.pause();
-		button.css('background', 'url(../last_exam/img/media-fast-forward-outline.png)');
+		button.css('background', 'url(../last_exam/img/media-fast-forward-outline.png) ' ,`no-repeat`);
 	} else {
 		audio.play();
-		button.css('background', 'url(../last_exam/img/media-pause-outline.png)');
+		button.css('background', 'url(../last_exam/img/media-pause-outline.png) ,no-repeat' ,`no-repeat`);
 	}
 	
 	
 	$(audio).on('ended', function() {
-		button.css('background', 'url(../last_exam/img/media-fast-forward-outline.png)');
+		button.css('background', 'url(../last_exam/img/media-fast-forward-outline.png)' ,`no-repeat`);
 	});
 	
 	$(audio).on('timeupdate', function() {

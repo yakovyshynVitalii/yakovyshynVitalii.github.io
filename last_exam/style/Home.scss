@@ -1,6 +1,6 @@
 
 #Home{
-    max-width: 1600px;
+    max-width: 1550px;
     margin: 0 auto;
     margin-top: 350px;
     @media (max-width: 991px){
@@ -9,7 +9,7 @@
          
      }
     .Home_title{
-        background-image: url(../img/foto.png);
+        background-image: url(../img/Home_bg.png);
         height: 416px;
         width: 100%;
         position: relative;
@@ -40,7 +40,7 @@
             }
             @media (max-width: 534px){
                 text-align: center;
-                font-size: 73px;
+                font-size: 67px;
                 top: -50px;
                 left: 0px;
             }
