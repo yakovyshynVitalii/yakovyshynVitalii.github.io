@@ -21,6 +21,10 @@
         @media (max-width: 970px){
             margin-left: 0px;
         }
+        @media (max-width: 614px){
+            padding-top: 100px;
+            
+           }
         .Shop_title_decoration{
             background: url(../img/circles2.png);
             width: 46px;
@@ -30,6 +34,7 @@
             @media (max-width: 970px){
                 display: none;
             }
+           
         }
         h2{
             width: 320px;

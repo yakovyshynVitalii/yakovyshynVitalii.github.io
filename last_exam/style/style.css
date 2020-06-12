@@ -800,7 +800,7 @@ textarea {
   position: absolute;
   top: -130px;
   left: 50px;
-  font-family: Impact;
+  font-family: "Impact", sans-serif;
   font-weight: bold;
   font-size: 190px;
   color: #ff4a22;
@@ -1120,6 +1120,7 @@ textarea {
 @media (max-width: 530px) {
   #About-us .abou-us_contant .container2 {
     width: 100%;
+    height: 500px;
   }
 }
 @media (max-width: 474px) {
@@ -1151,7 +1152,7 @@ textarea {
 @media (max-width: 1250px) {
   #About-us .abou-us_contant .container2 .container2_img {
     background-image: url(../img/foto-of-grup_3.png);
-    top: 0px;
+    top: -50px;
     left: 0px;
     position: relative;
     width: 502px;
@@ -1169,7 +1170,7 @@ textarea {
   #About-us .abou-us_contant .container2 .container2_img {
     background-image: url(../img/foto-of-grup_wq01zx.png);
     width: 280px;
-    height: 144px;
+    height: 130px;
   }
 }
 #About-us .abou-us_contant .container2 p {
@@ -1188,7 +1189,7 @@ textarea {
 }
 @media (max-width: 1250px) {
   #About-us .abou-us_contant .container2 p {
-    margin-top: 50px;
+    margin-top: 10px;
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -1202,13 +1203,9 @@ textarea {
 }
 @media (max-width: 530px) {
   #About-us .abou-us_contant .container2 p {
-    margin-top: 50px;
-  }
-}
-@media (max-width: 530px) {
-  #About-us .abou-us_contant .container2 p {
-    padding-left: 5px;
-    padding-right: 5px;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 #About-us .abou-us_contant .container2 button {
@@ -1225,6 +1222,12 @@ textarea {
 @media (max-width: 575px) {
   #About-us .abou-us_contant .container2 button {
     margin-left: 0px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 530px) {
+  #About-us .abou-us_contant .container2 button {
+    margin-top: 50px;
   }
 }
 #About-us .abou-us_contant .container2 button:hover {
@@ -1344,7 +1347,8 @@ textarea {
 @media (max-width: 915px) {
   #Live .Live_title h2 {
     margin-bottom: 10px;
-    padding-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
   }
 }
@@ -1438,6 +1442,11 @@ textarea {
 @media (max-width: 970px) {
   #Shop .Shop_title {
     margin-left: 0px;
+  }
+}
+@media (max-width: 614px) {
+  #Shop .Shop_title {
+    padding-top: 100px;
   }
 }
 #Shop .Shop_title .Shop_title_decoration {

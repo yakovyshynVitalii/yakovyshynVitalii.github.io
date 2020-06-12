@@ -6,7 +6,7 @@ $(document).ready(function(){
 })
 
 $(window).scroll(function(){
-    if ($(window).scrollTop() > 500) {
+    if ($(window).scrollTop() > 100) {
         $('header').addClass('scroll');
         $('.soc_links').addClass('none_soc_links');
     }
@@ -15,3 +15,9 @@ $(window).scroll(function(){
         $('.soc_links').removeClass('none_soc_links');
     }
 });
+
+$(document).ready(function(){
+    $('.menu_soc').click(function(){
+        $('nav').addClass('active')
+    })
+})
