@@ -105,12 +105,16 @@
         font-family:"Roboto-Regular" ,sans-serif;
         color: black;
         border-bottom:1px solid black ;
-
-          
+        @media (max-width: 813px){
+            padding-left: 10px;
+           }
+       
         @media (max-width: 590px){
             text-align: center;
-            
+            padding-left: 0;
            }
+               
+        
     }
     .tickets{
         margin: 0 auto;

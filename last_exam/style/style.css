@@ -784,7 +784,7 @@ textarea {
   }
 }
 #Home .Home_title {
-  background-image: url(../img/Home_bg.png);
+  background: url(../img/Home_bg.png);
   height: 416px;
   width: 100%;
   position: relative;
@@ -814,9 +814,9 @@ textarea {
 @media (max-width: 534px) {
   #Home .Home_title h1 {
     text-align: center;
-    font-size: 67px;
+    font-size: 65px;
     top: -50px;
-    left: 0px;
+    left: 5px;
   }
 }
 #Home .Home_title .title_text {
@@ -923,6 +923,30 @@ textarea {
   z-index: 500;
   padding: 50px 18px;
 }
+#Albums .container .albums .hover_img {
+  margin-top: 16px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 258px;
+  height: 246px;
+  position: absolute;
+  background-color: white;
+  opacity: 0;
+}
+#Albums .container .albums .hover_img .albums_a {
+  margin-top: 0px;
+  border-bottom: 1px solid black;
+  padding: 8px;
+  font-size: 25px;
+  font-family: "Roboto-Regular", sans-serif;
+  background-color: white;
+}
+#Albums .container .albums .hover_img .albums_a:hover {
+  background-color: #ff4a22;
+  color: white;
+}
 @media (max-width: 325px) {
   #Albums .container .albums {
     padding: 50px 0px;
@@ -933,15 +957,27 @@ textarea {
   width: 278px;
   height: 263px;
 }
+#Albums .container .albums .albums_img1:hover .hover_img {
+  transition-duration: 0.8s;
+  opacity: 0.9;
+}
 #Albums .container .albums .albums_img2 {
   background-image: url(../img/foto2.png);
   width: 278px;
   height: 263px;
 }
+#Albums .container .albums .albums_img2:hover .hover_img {
+  transition-duration: 0.8s;
+  opacity: 0.9;
+}
 #Albums .container .albums .albums_img3 {
   background-image: url(../img/foto3.png);
   width: 278px;
   height: 263px;
+}
+#Albums .container .albums .albums_img3:hover .hover_img {
+  transition-duration: 0.8s;
+  opacity: 0.9;
 }
 #Albums .container .albums h3 {
   margin-left: 15px;
@@ -1208,29 +1244,29 @@ textarea {
     padding-right: 10px;
   }
 }
-#About-us .abou-us_contant .container2 button {
+#About-us .abou-us_contant .container2 .Ubout-us_button {
   margin-top: 40px;
   margin-left: 60px;
   width: 121px;
   height: 40px;
   text-align: center;
   color: white;
+  background-color: #ff4a22;
   font-size: 16;
   font-family: "Roboto-Regular", sans-serif;
   border: 1px solid white;
 }
-@media (max-width: 575px) {
-  #About-us .abou-us_contant .container2 button {
+@media (max-width: 1250px) {
+  #About-us .abou-us_contant .container2 .Ubout-us_button {
     margin-left: 0px;
-    margin: 0 auto;
   }
 }
 @media (max-width: 530px) {
-  #About-us .abou-us_contant .container2 button {
+  #About-us .abou-us_contant .container2 .Ubout-us_button {
     margin-top: 50px;
   }
 }
-#About-us .abou-us_contant .container2 button:hover {
+#About-us .abou-us_contant .container2 .Ubout-us_button:hover {
   background-color: #dfdfdf;
   border: 1px solid black;
   color: black;
@@ -1362,9 +1398,15 @@ textarea {
   color: black;
   border-bottom: 1px solid black;
 }
+@media (max-width: 813px) {
+  #Live .Live_container_title {
+    padding-left: 10px;
+  }
+}
 @media (max-width: 590px) {
   #Live .Live_container_title {
     text-align: center;
+    padding-left: 0;
   }
 }
 #Live .tickets {
@@ -1497,7 +1539,7 @@ textarea {
   }
 }
 #Shop .Shop_container .Shop_items {
-  z-index: 1000;
+  z-index: 800;
   background-color: #f4f4f4;
   margin: 20px;
   align-items: center;

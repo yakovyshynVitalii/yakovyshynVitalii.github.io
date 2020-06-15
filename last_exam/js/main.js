@@ -18,6 +18,8 @@ $('.player-example button').click(function () {
 	}
 	
 	
+
+
 	$(audio).on('ended', function() {
 		button.css('background', 'url(../last_exam/img/media-fast-forward-outline.png)' ,`no-repeat`);
 	});
@@ -27,6 +29,8 @@ $('.player-example button').click(function () {
 		duration.html(date.getMinutes()+':'+date.getSeconds());
 	});
 });
+
+
 
 
 

@@ -9,7 +9,7 @@
          
      }
     .Home_title{
-        background-image: url(../img/Home_bg.png);
+        background: url(../img/Home_bg.png);
         height: 416px;
         width: 100%;
         position: relative;
@@ -40,9 +40,9 @@
             }
             @media (max-width: 534px){
                 text-align: center;
-                font-size: 67px;
+                font-size: 65px;
                 top: -50px;
-                left: 0px;
+                left: 5px;
             }
         }
 

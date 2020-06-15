@@ -207,23 +207,23 @@
             }
             
     
-            button{
+            .Ubout-us_button{
                 margin-top: 40px;
                 margin-left: 60px;
                 width: 121px;
                 height: 40px;
                 text-align: center;
                 color: white;
+                background-color:#ff4a22 ;
                 font-size: 16;
                 font-family: "Roboto-Regular" ,sans-serif;
                 border: 1px solid white;
-                
-                @media (max-width: 575px){
+                @media (max-width: 1250px){
                     margin-left: 0px;
-                    margin: 0 auto;
                 }
                 @media (max-width: 530px){
                     margin-top: 50px;
+                   
                  }
                 &:hover{
                     background-color:#dfdfdf ;
