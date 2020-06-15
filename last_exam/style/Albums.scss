@@ -46,26 +46,69 @@
             z-index: 500;
             padding: 50px 18px;
             
+            .hover_img{
+                margin-top: 16px;
+                margin-left: 20px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                width: 258px;
+                height: 246px;
+                position: absolute;
+                background-color: white;
+                opacity: 0;
+                
+                .albums_a{
+                    margin-top: 0px;
+                    border-bottom:1px solid black ;
+                    padding: 8px;
+                    font-size: 25px;
+                    font-family: "Roboto-Regular",sans-serif;
+                    background-color: white;
+
+                    &:hover{
+                        background-color: #ff4a22;
+                        color: white;
+                    }
+                }
+            }
+            
             @media (max-width: 325px){
                 padding: 50px 0px;
              }
             .albums_img1{
+                
                 background-image: url(../img/foto1.png);
                 width: 278px;
                 height: 263px;
+
+                &:hover .hover_img{
+                    transition-duration: 0.8s;
+                    opacity: 0.9;
+                    
+                }
+                
                 
             }
             .albums_img2{
                 background-image: url(../img/foto2.png);
                 width: 278px;
                 height: 263px;
-                
+                &:hover .hover_img{
+                    transition-duration: 0.8s;
+                    opacity: 0.9;
+                    
+                }
             }
             .albums_img3{
                 background-image: url(../img/foto3.png);
                 width: 278px;
                 height: 263px;
-                
+                &:hover .hover_img{
+                    transition-duration: 0.8s;
+                    opacity: 0.9;
+                    
+                }
             }
 
             h3{

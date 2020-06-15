@@ -18,6 +18,6 @@ $(window).scroll(function(){
 
 $(document).ready(function(){
     $('.menu_soc').click(function(){
-        $('nav').addClass('active')
+        $('nav').removeClass('active')
     })
 })
