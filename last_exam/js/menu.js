@@ -2,6 +2,7 @@
 $(document).ready(function(){
     $('.menu-toggle').click(function(){
         $('nav').toggleClass('active')
+
     })
 })
 
@@ -20,4 +21,10 @@ $(document).ready(function(){
     $('.menu_soc').click(function(){
         $('nav').removeClass('active')
     })
+
+    
 })
+
+function myFunction(x) {
+    x.classList.toggle("change");
+  }

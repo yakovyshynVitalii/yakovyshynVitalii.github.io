@@ -1445,14 +1445,15 @@ textarea {
 #Live .tickets p span {
   font-size: 28px;
 }
-#Live .tickets button {
+#Live .tickets .tickets_button {
+  height: 35px;
   margin-bottom: 10px;
   width: 160px;
   border: 1px solid black;
   background-color: #dfdfdf;
   color: black;
 }
-#Live .tickets button:hover {
+#Live .tickets .tickets_button:hover {
   border: 1px solid #ff4a22;
   background-color: #ff4a22;
   color: white;
