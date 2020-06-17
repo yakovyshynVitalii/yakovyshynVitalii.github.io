@@ -24,7 +24,7 @@ $(document).ready(function(){
 
 
   $(document).ready(function(){
-    $('.slick_970px').slick({
+    $('.slick_950px').slick({
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1

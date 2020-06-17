@@ -46,15 +46,16 @@
                display: none;
             }  
         }
-        h2{
+        .abotu-us_title{
             z-index: 500;
             position: absolute;
             bottom: -120px;
             left: 450px;
             font-family: "Impact",sans-serif;
             font-weight: bold;
-            font-size: 160px;
+            font-size: 150px;
             color: #ff4a22;
+            border: none;
             @media (max-width: 1090px){
                 left: 300px;
             }
@@ -165,12 +166,15 @@
         }
     }
     .ubout-us_box3{
+        height: 1500px;
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: #dfdfdf;
         padding-top: 100px;
-        
+        @media (max-width: 576px){
+            height: 1800px;
+        }
 
         .box3_title{
             margin-left: -420px;
@@ -265,125 +269,253 @@
             font-size: 13px;
         }
     }
-    // .about-us_box4{
-    //         height: 600px;
-    //     @media (max-width: 970px){
-    //         height: 600px;
-    //  }
-    //     h2{
-    //         padding-top: 100px;
-    //         margin-left: -445px;
-    //         width: 320px;
-    //         color: #ff4a22;
-    //         font-size: 36px;
-    //         font-family: 'Roboto', sans-serif;
-    //         border-bottom: 1px solid black;
-
-    //         @media (max-width: 970px){
-    //             text-align: center;
-    //             margin: 0 auto;
-    //             width: 280px;
-    //             padding-top: 50px;
-    //         }
-    //     }
+    .box3_gallery{
         
-    //     .slider-wrap{
-    //         display: flex;
-    //         width: 300px;
-    //         height: 300px;
-    //         margin-left: -445px;
-           
-          
-    //         @media (max-width: 970px){
-    //             flex-direction: column;
-    //             top: 100px;
-    //             margin-left: 0px;
-    //         }
             
-    //         .slider-nav {
-    //            height: 460px;
-    //            width: 200px;
-    //            margin-left: 20px;
-    //            @media (max-width: 970px){
-    //             display: none;
-    //         }
-                
-    //             div{
-    //                 padding-bottom:5px;
-    //                 padding-top: 5px;
-                   
-    //                 img{
-    //                 width: 200px;
-    //                 height: 170px;
+     
+     .gallert_title{
+            padding-top: 100px;
+            
+            width: 320px;
+            color: #ff4a22;
+            font-size: 36px;
+            font-family: 'Roboto', sans-serif;
+            border-bottom: 1px solid black;
+
+            @media (max-width: 950px){
+                text-align: center;
+                margin: 0 auto;
+                width: 280px;
+                padding-top: 50px;
+            }
+        }
+        
+        .slider-wrap{
+            display: flex;
+            
+            .slider-nav {
+               top: 15px;
+               height: 460px;
+               width: 200px;
+               margin-left: 100px;
+               @media (max-width: 1013px){
+                margin-left: 10px;
+                }
+               @media (max-width: 950px){
+                display: none;
+               }
+                .slick-track{
+                    height: 500px;
+                }
+                .img_252{
+                    width: 252px;
+                    height: 180px;
+                    z-index: 500;
                     
-    //                 }
-    //             }
-    //         }
-    //         .slider-for{
-    //             width: 700px;
-    //             height: 500px;
-    //             @media (max-width: 970px){
-    //                 display: none;
-    //             }
-    //         }
-    //         .slick_970px{
-    //            width: 340px;
-    //            height: 300px;
-    //             display: none;
+                }
 
-    //             img{
-    //                 width: 320px;
-    //                 height: 170px;
-    //             }
-    //             @media (max-width: 970px){
-    //                 display: block;
-    //             }
-    //         }
+                .img1_252{
+                    background: url(../img/6899589707_0f3c1ce0bc_b_ytibh3-700px_mrzmmr_252px.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                .img2_252{
+                    background: url(../img/daughter-band-numbers-night-club-houston-march-2016-696x407_eqsfhf_252px.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                .img3_252{
+                    background: url(../img/Daughter800_vrkeyn_700px_pmtwsb_252px.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                .img4_252{
+                    background: url(../img/Daughter_at_Bestival_Toronto_2016_Day_2_at_Woodbine_Park-5_d1nctu_700px_pfl3hu_252px.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                .img5_252{
+                    background: url(../img/0dcd272982354e7a550ea1714077be4b_tzvky5_700px_ci1k7i_252px.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }
+                
+               
+            }
+            .slider-for{
+                width: 700px;
+                height: 500px;
+                
+                @media (max-width: 950px){
+                    display: none;
+                }
+                
+                .img{
+                    width: 700px;
+                    height: 500px;
+                    
+                }
+                .img1{
+                    background: url(../img/6899589707_0f3c1ce0bc_b_ytibh3-700px.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                .img2{
+                    background: url(../img/daughter-band-numbers-night-club-houston-march-2016-696x407.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                .img3{
+                    background: url(../img/Daughter800_vrkeyn_700px.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                .img4{
+                    background: url(../img/Daughter_at_Bestival_Toronto_2016_Day_2_at_Woodbine_Park-5_d1nctu_700px.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                .img5{
+                    background: url(../img/0dcd272982354e7a550ea1714077be4b_tzvky5_700px.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }
+            .slick_950px{
+               width: 500px;
+               height: 400px;
+                display: none;
+                @media (max-width: 950px){
+                    display: block;
+                }
+                @media (max-width: 590px){
+                    width: 320px;
+                    height: 300px;
+                }
+                .img_950{
+                    width: 500px;
+                    height: 400px;
+                    z-index: 500;
+                    @media (max-width: 590px){
+                        width: 320px;
+                        height: 300px;
+                    }
+                }
 
-    //         .slick-arrow{
-    //             background-color: white;
-    //             position: absolute;
-    //             z-index: 500;
-    //             width: 40px;
-    //             height: 20px;
-    //             font-size: 0px;
-    //             @media (max-width: 970px){
-    //                 width: 20px;
-    //                 height: 40px;
-    //                 }
-    //         }
-    //         .slick-prev{
-    //             left: 80px;
-    //             top: -30px;
-    //             background-image: url(../img/angle-up.png) ;
-    //             background-repeat: no-repeat;
-    //             background-position: center;
-    //             @media (max-width: 970px){
-    //             top: 50px;
-    //             left: -30px;
-    //             background-image: url(../img/angle-left.png) ;
-    //             background-repeat: no-repeat;
-    //             background-position: center;
-    //             }
-    //         }
-    //         .slick-next{
-    //             bottom: -30px;
-    //             right: 80px;
-    //             background-image: url(../img/angle-down.png) ;
-    //             background-repeat: no-repeat;
-    //             background-position: center;
-    //             @media (max-width: 970px){
-    //              top: 50px;
-    //              right:-30px;
-    //             background-image: url(../img/angle-right.png) ;
-    //             background-repeat: no-repeat;
-    //             background-position: center;
-    //             }
-    //         }
-    //     }
-    // }
+                .img1_950{
+                    background: url(../img/6899589707_0f3c1ce0bc_b_ytibh3-700px_pfigkv_500px.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    @media (max-width: 590px){
+                        background: url(../img/6899589707_0f3c1ce0bc_b_ytibh3-700px_pfigkv_320px.jpg);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }
+                .img2_950{
+                    background: url(../img/daughter-band-numbers-night-club-houston-march-2016-696x407_l6lrib_500px.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    @media (max-width: 590px){
+                        background: url(../img/daughter-band-numbers-night-club-houston-march-2016-696x407_l6lrib_320px.jpg);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }
+                .img3_950{
+                    background: url(../img/Daughter800_vrkeyn_700px_bfr5ho_500px.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    @media (max-width: 590px){
+                        background: url(../img/Daughter800_vrkeyn_700px_bfr5h_320.jpg);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }
+                .img4_950{
+                    background: url(../img/Daughter_at_Bestival_Toronto_2016_Day_2_at_Woodbine_Park-5_d1nctu_700px_dgbrmd_500px.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    @media (max-width: 590px){
+                        background: url(../img/Daughter_at_Bestival_Toronto_2016_Day_2_at_Woodbine_Park-5_d1nctu_700px_dgbrmd_320px.jpg);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }
+                .img5_950{
+                    background: url(../img/0dcd272982354e7a550ea1714077be4b_tzvky5_700px_zz1tou_500px.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    @media (max-width: 590px){
+                        background: url(../img/0dcd272982354e7a550ea1714077be4b_tzvky5_700px_zz1tou_320px.jpg);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }
 
-    
+            }
 
-}
+            .slick-arrow{
+                border: 1px solid gray;
+                background-color: white;
+                position: absolute;
+                z-index: 500;
+                width: 40px;
+                height: 20px;
+                font-size: 0px;
+                @media (max-width: 950px){
+                    width: 20px;
+                    height: 40px;
+                    }
+            }
+            .slick-prev{
+                left: 80px;
+                top: -30px;
+                background-image: url(../img/angle-up.png) ;
+                background-repeat: no-repeat;
+                background-position: center;
+                @media (max-width: 950px){
+                top: 150px;
+                left: -25px;
+                background-image: url(../img/angle-left.png) ;
+                background-repeat: no-repeat;
+                background-position: center;
+                }
+                @media (max-width: 370px){
+                    top: 260px;
+                    left: 100px;
+                    background-image: url(../img/angle-left.png) ;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    }
+                
+            }
+            .slick-next{
+                bottom: -30px;
+                right: 80px;
+                background-image: url(../img/angle-down.png) ;
+                background-repeat: no-repeat;
+                background-position: center;
+                @media (max-width: 950px){
+                 top: 150px;
+                 right:-25px;
+                background-image: url(../img/angle-right.png) ;
+                background-repeat: no-repeat;
+                background-position: center;
+                }
+                @media (max-width: 370px){
+                    top: 260px;
+                    right: 100px;
+                    background-image: url(../img/angle-right.png) ;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }
+            
+    }
+ }
+
+
+
 
