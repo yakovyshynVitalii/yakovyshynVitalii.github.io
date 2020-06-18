@@ -155,9 +155,13 @@
                     }
                 }
                 .pause{
-                  background-repeat: no-repeat;
-                  border: none;
+                 background: url(../img/media-pause-outline.png);
+                 background-repeat: no-repeat;
                 }
+                .play{
+                    background: url(../img/media-fast-forward-outline.png);
+                    background-repeat: no-repeat;
+                   }
             }
         }
     }

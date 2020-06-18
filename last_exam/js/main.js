@@ -31,7 +31,3 @@ $('.player-example button').click(function () {
 	
 	
 });
-
-
-
-
