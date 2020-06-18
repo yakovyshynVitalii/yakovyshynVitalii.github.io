@@ -32,3 +32,10 @@ $(document).ready(function(){
   
 
   });
+
+
+  $(".tab").not(":first").hide();
+$(".box3_members").click(function() {
+	$(".box3_members").removeClass("active").eq($(this).index()).addClass("active");
+	$(".tab").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active");
