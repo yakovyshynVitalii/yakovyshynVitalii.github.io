@@ -7,7 +7,7 @@ const Album = {
         "image":"../img/item1.png"
         }
 }
-let caount = 0;
+let count = 0;
 
 
 $('#add_cart').click(function(){
@@ -16,9 +16,11 @@ $('#add_cart').click(function(){
     // if(cart){
     //     localStorage.setItem('cart',JSON.stringify([...cart,"11292"]));
     // }
-    caount++;
+    count++;
 
-    $('#count').text(caount);
+    $('#count').text(count);
+    
+    
 });
 
 
@@ -28,7 +30,11 @@ $('#subtract').click(function(){
     // if(cart){
     //     localStorage.setItem('cart',JSON.stringify([...cart,"11292"]));
     // }
-    caount--;
-
-    $('#count').text(caount);
+    
+    count--;
+    if(count < 0){
+        count=0;
+    }
+    $('#count').text(count);
+    
 });

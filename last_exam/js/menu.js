@@ -1,8 +1,13 @@
 
 $(document).ready(function(){
     $('.menu-toggle').click(function(){
-        $('nav').toggleClass('active')
+        $('nav').toggleClass('active');
+        $('body').toggleClass('overflow')
 
+    });
+    $('.menu_soc').click(function(){
+        $('nav').removeClass('active');
+        $('body').removeClass('overflow')
     })
 })
 
@@ -18,9 +23,7 @@ $(window).scroll(function(){
 });
 
 $(document).ready(function(){
-    $('.menu_soc').click(function(){
-        $('nav').removeClass('active')
-    })
+   
 
     
 })

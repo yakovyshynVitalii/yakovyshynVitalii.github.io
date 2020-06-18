@@ -95,7 +95,9 @@
   .fa-lg:hover{
     color: #ff4a22;
   }
-  
+  .overflow{
+    overflow: hidden;
+  }
 
   
   @media (max-width: 991px) {

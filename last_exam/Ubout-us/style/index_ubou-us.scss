@@ -202,6 +202,11 @@
                 padding-left: 20px;
                 display: flex;
                 align-items: flex-start;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                    transition: ease-in-out 0.3s;
+                }
                 @media (max-width: 944px){
                     flex-direction: column;
                 }
@@ -212,21 +217,26 @@
                     background-image: url(../img/foto4.png);
                     width: 176px;
                     height: 177px;
+                   
+                    
                 }
                 .members_img2{
                     background-image: url(../img/foto5.png);
                     width: 176px;
                     height: 177px;
+                     
                 }
                 .members_img3{
                     background-image: url(../img/foto6.png);
                     width: 176px;
                     height: 177px;
+                    
                 }
 
                 .members_name{
                     padding-top: 10px;
                     color:#ff4a22 ;
+                    
                 }
                 span{
                     color: black;
@@ -234,17 +244,23 @@
             }
         }
     }
-
+    
     .box3_inform{
        display: flex;
+       justify-content: center;
         margin-top: 20px;
         // padding-bottom: 300px;
+
+        
+        .active{
+            display: block;
+        }
         @media (max-width: 896px){
             flex-direction: column;
             align-items: center;
             justify-content: center;
         }
-        .inform_img{
+        .inform_img1{
             background: url(../img/CNV00035-web1.png);
             width: 480px;
             height: 282px;
@@ -260,15 +276,56 @@
                 height: 180px;
             }
         }
+        .inform_img2{
+            background: url(../img/8391456209_fd38fa3905_b_jqirta_480px.jpg);
+            width: 480px;
+            height: 282px;
+            
+            @media (max-width: 488px){
+                background: url(../img/8391456209_fd38fa3905_b_jqirta_480px_qciycw_414.jpg);
+                width: 414px;
+                height: 220px;
+            }
+            @media (max-width: 416px){
+                background: url(../img/8391456209_fd38fa3905_b_jqirta_320px.jpg);
+                width: 320px;
+                height: 180px;
+            }
+        }
+        .inform_img3{
+            background: url(../img/Online_Remi_Aguilella_By_Catie_Laffoon_ks72qk_480px.png);
+            width: 480px;
+            height: 282px;
+            
+            @media (max-width: 488px){
+                background: url(../img/Online_Remi_Aguilella_By_Catie_Laffoon_ks72qk_414.png);
+                width: 414px;
+                height: 220px;
+            }
+            @media (max-width: 416px){
+                background: url(../img/Online_Remi_Aguilella_By_Catie_Laffoon_ks72qk_320px.png);
+                width: 320px;
+                height: 180px;
+            }
+        }
         .inform_text{
+            max-width: 480px;
             padding: 30px 30px;
             line-height: 1.5;
             background-color: #ff4a22;
             font-family: "Roboto-Regular",sans-serif;
             color: white;
             font-size: 13px;
+            @media (max-width: 488px){
+                max-width: 416px;
+            }
+            @media (max-width: 416px){
+                
+                max-width: 320px;
+            }
         }
     }
+    
     .box3_gallery{
         
             
