@@ -1023,8 +1023,12 @@ textarea {
   color: black;
 }
 #Albums .container .albums .player-example .pause {
+  background: url(../img/media-pause-outline.png);
   background-repeat: no-repeat;
-  border: none;
+}
+#Albums .container .albums .player-example .play {
+  background: url(../img/media-fast-forward-outline.png);
+  background-repeat: no-repeat;
 }
 
 #About-us {
