@@ -7,6 +7,7 @@ $('.player-example button').click(function () {
 	var button = $(this);
 	var audio = $('audio', parent)[0];
 	
+	$('.albums_button').css('background', 'url(../last_exam/img/media-fast-forward-outline.png) ' ,`no-repeat`);
 	
 	if (audio.paused == false) {
 		audio.pause();
