@@ -1214,6 +1214,7 @@ textarea {
   }
 }
 #About-us .abou-us_contant .container2 p {
+  max-width: 600px;
   margin-top: 480px;
   padding-left: 60px;
   font-size: calc(11px + 2 * ((100vw - 320px) / 1280));
